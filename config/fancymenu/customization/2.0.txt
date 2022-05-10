@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  name = meowcorp_ratright_b3a7f7f5932d4db8
+  action = animatebackground
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -176,15 +181,17 @@ customization {
 }
 
 customization {
-  orientation = top-left
-  shape = rectangle
-  color = #00000052
-  x = -3
-  width = 213
-  action = addshape
-  actionid = df6f1589-6856-40ad-8057-7491ab9328e71652154495221
-  y = 0
-  height = %guiheight%
+  showname = true
+  orientation = mid-left
+  crouching = false
+  x = 183
+  slim = false
+  actionid = e1912e53-7713-451c-b1a0-393c01739e971652153948664
+  action = addentity
+  y = 60
+  scale = 30
+  playername = %playername%
+  parrot = false
 }
 
 customization {
@@ -204,27 +211,28 @@ customization {
 }
 
 customization {
-  path = resources/mecktreatetaniaengiwatermark.png
-  orientation = mid-left
-  x = 10
-  width = 148
+  vr:showif:guiscale = true
+  path = config/openloader/resources/MekcreateAssets/assets/mekcreate/textures/gui/meklogo22.png
+  orientation = top-centered
+  x = -310
+  width = 620
   action = addtexture
-  actionid = bd36d2f6-6dbf-4807-a3b9-3d156b6ff1361652152045930
-  y = -82
-  height = 34
+  actionid = 8b0c1825-8c8e-48f8-933e-4e3b8f09cfa91652232164905
+  y = 128
+  vr:value:guiscale = <2.0
+  height = 94
 }
 
 customization {
-  showname = true
-  orientation = mid-left
-  crouching = false
-  x = 183
-  slim = false
-  actionid = e1912e53-7713-451c-b1a0-393c01739e971652153948664
-  action = addentity
-  y = 60
-  scale = 30
-  playername = %playername%
-  parrot = false
+  vr:showif:guiscale = true
+  path = config/openloader/resources/MekcreateAssets/assets/mekcreate/textures/gui/meklogo22.png
+  orientation = top-centered
+  x = -240
+  width = 480
+  action = addtexture
+  actionid = 3c66714a-ed24-411c-becb-67d034ebf5301652232381076
+  y = 57
+  vr:value:guiscale = >1.0,<3.0
+  height = 73
 }
 

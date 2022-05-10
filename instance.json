@@ -1,7 +1,7 @@
 {
   "launcher": {
-    "name": "Mekreate dev",
-    "pack": "Mekreate dev",
+    "name": "Mekreate Engitania 2.0",
+    "pack": "Mekreate and more",
     "packId": 0,
     "externalPackId": 0,
     "version": "1",
@@ -23333,7 +23333,7 @@
               "id": 316886,
               "description": "",
               "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/316/886/310/172/reditt.png",
-              "title": "( ?° ?? ?°)",
+              "title": "( ?ï¿½ ?? ?ï¿½)",
               "url": "https://media.forgecdn.net/attachments/316/886/reditt.png",
               "modId": 225738
             },
@@ -40043,7 +40043,7 @@
         "optional": true,
         "file": "balm-3.0.3+0.jar",
         "type": "mods",
-        "description": "Abstraction Layer (but not really)™ for Blay's multiplatform mods",
+        "description": "Abstraction Layer (but not really)ï¿½ for Blay's multiplatform mods",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
@@ -40060,7 +40060,7 @@
             }
           ],
           "gameId": 432,
-          "summary": "Abstraction Layer (but not really)™ for Blay's multiplatform mods",
+          "summary": "Abstraction Layer (but not really)ï¿½ for Blay's multiplatform mods",
           "downloadCount": 2792914,
           "latestFiles": [
             {
@@ -57400,74 +57400,260 @@
         }
       },
       {
-        "name": "Load My Resources [Forge]",
-        "version": "Load My Resources v1.0.1 MC 1.18-1.18.2",
+        "name": "Open Loader",
+        "version": "OpenLoader-Forge-1.18.2-12.0.1.jar",
         "optional": true,
-        "file": "loadmyresources_1.0.1_MC_1.18.jar",
+        "file": "OpenLoader-Forge-1.18.2-12.0.1.jar",
         "type": "mods",
-        "description": "Load resources on game start, like a resource pack, but enabled by default.",
+        "description": "An open source resource and data loader for Minecraft.",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
-        "curseForgeProjectId": 534502,
-        "curseForgeFileId": 3544605,
+        "curseForgeProjectId": 354339,
+        "curseForgeFileId": 3697234,
         "curseForgeProject": {
-          "id": 534502,
-          "name": "Load My Resources [Forge]",
+          "id": 354339,
+          "name": "Open Loader",
           "authors": [
             {
-              "id": 453170,
-              "name": "Keksuccino",
-              "url": "https://www.curseforge.com/members/100802238-keksuccino?username=keksuccino"
+              "id": 259256,
+              "name": "DarkhaxDev",
+              "url": "https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev"
             }
           ],
           "gameId": 432,
-          "summary": "Load resources on game start, like a resource pack, but enabled by default.",
-          "downloadCount": 218451,
+          "summary": "An open source resource and data loader for Minecraft.",
+          "downloadCount": 6490393,
           "latestFiles": [
             {
-              "id": 3544605,
+              "id": 2867000,
               "gameId": 432,
               "isAvailable": true,
-              "displayName": "Load My Resources v1.0.1 MC 1.18-1.18.2",
-              "fileName": "loadmyresources_1.0.1_MC_1.18.jar",
-              "releaseType": 1,
+              "displayName": "OpenLoader-1.15.1-3.0.4.jar",
+              "fileName": "OpenLoader-1.15.1-3.0.4.jar",
+              "releaseType": 3,
               "fileStatus": 4,
-              "fileDate": "2021-12-02T01:49:27.557Z",
-              "fileLength": 31361,
-              "downloadUrl": "https://edge.forgecdn.net/files/3544/605/loadmyresources_1.0.1_MC_1.18.jar",
+              "fileDate": "2020-01-24T06:12:52.91Z",
+              "fileLength": 7668,
+              "downloadUrl": "https://edge.forgecdn.net/files/2867/0/OpenLoader-1.15.1-3.0.4.jar",
               "dependencies": [],
               "alternateFileId": 0,
               "modules": [
                 {
-                  "fingerprint": 3638939223,
+                  "fingerprint": 1068052890,
                   "name": "META-INF"
                 },
                 {
-                  "fingerprint": 537968083,
-                  "name": "de"
+                  "fingerprint": 1101341446,
+                  "name": "net"
                 },
                 {
-                  "fingerprint": 3432275985,
-                  "name": "assets"
-                },
-                {
-                  "fingerprint": 3687403166,
+                  "fingerprint": 930601385,
                   "name": "pack.mcmeta"
                 }
               ],
               "isServerPack": false,
               "hashes": [
                 {
-                  "value": "644cbb962e84ec90a2f4334b8eb571b438a552c1",
+                  "value": "af3791f4c1c71212efe264420faf4e062a3e859d",
                   "algo": 1
                 },
                 {
-                  "value": "9ce95ff6d0c9f76afac37a6011ee7028",
+                  "value": "b488b6547afbc68b94223dfff2ce5536",
                   "algo": 2
                 }
               ],
-              "downloadCount": 157532,
+              "downloadCount": 2855,
+              "sortableGameVersions": [
+                {
+                  "gameVersionPadded": "0000000001.0000000015.0000000001",
+                  "gameVersion": "1.15.1",
+                  "gameVersionReleaseDate": "2019-12-17T00:00:00Z",
+                  "gameVersionName": "1.15.1"
+                }
+              ],
+              "gameVersions": [
+                "1.15.1"
+              ],
+              "fileFingerprint": 4283283659,
+              "modId": 354339
+            },
+            {
+              "id": 2922848,
+              "gameId": 432,
+              "isAvailable": true,
+              "displayName": "OpenLoader-1.15.2-4.0.3.jar",
+              "fileName": "OpenLoader-1.15.2-4.0.3.jar",
+              "releaseType": 1,
+              "fileStatus": 4,
+              "fileDate": "2020-04-06T19:47:12.6Z",
+              "fileLength": 7646,
+              "downloadUrl": "https://edge.forgecdn.net/files/2922/848/OpenLoader-1.15.2-4.0.3.jar",
+              "dependencies": [],
+              "alternateFileId": 0,
+              "modules": [
+                {
+                  "fingerprint": 1402987354,
+                  "name": "META-INF"
+                },
+                {
+                  "fingerprint": 1101341446,
+                  "name": "net"
+                },
+                {
+                  "fingerprint": 914111019,
+                  "name": "pack.mcmeta"
+                }
+              ],
+              "isServerPack": false,
+              "hashes": [
+                {
+                  "value": "fb8a7d4a52957c4f31fa31b4609c1a059a9dc09b",
+                  "algo": 1
+                },
+                {
+                  "value": "db6f1543298bba0c8e363c1677bbb7f0",
+                  "algo": 2
+                }
+              ],
+              "downloadCount": 27962,
+              "sortableGameVersions": [
+                {
+                  "gameVersionPadded": "0000000001.0000000015.0000000002",
+                  "gameVersion": "1.15.2",
+                  "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+                  "gameVersionName": "1.15.2"
+                }
+              ],
+              "gameVersions": [
+                "1.15.2"
+              ],
+              "fileFingerprint": 229815487,
+              "modId": 354339
+            },
+            {
+              "id": 3049379,
+              "gameId": 432,
+              "isAvailable": true,
+              "displayName": "OpenLoader-1.16.2-6.0.2.jar",
+              "fileName": "OpenLoader-1.16.2-6.0.2.jar",
+              "releaseType": 2,
+              "fileStatus": 4,
+              "fileDate": "2020-09-04T07:08:14.75Z",
+              "fileLength": 9619,
+              "downloadUrl": "https://edge.forgecdn.net/files/3049/379/OpenLoader-1.16.2-6.0.2.jar",
+              "dependencies": [],
+              "alternateFileId": 0,
+              "modules": [
+                {
+                  "fingerprint": 1260170433,
+                  "name": "META-INF"
+                },
+                {
+                  "fingerprint": 3350784910,
+                  "name": "net"
+                },
+                {
+                  "fingerprint": 3564887346,
+                  "name": "openloader.mixins.json"
+                },
+                {
+                  "fingerprint": 1493072104,
+                  "name": "openloader.refmap.json"
+                },
+                {
+                  "fingerprint": 914111019,
+                  "name": "pack.mcmeta"
+                }
+              ],
+              "isServerPack": false,
+              "hashes": [
+                {
+                  "value": "9535b6c975991109e16c0f9061367b001f9e88ae",
+                  "algo": 1
+                },
+                {
+                  "value": "d707b3d6432f5a71f785057a6f6b9926",
+                  "algo": 2
+                }
+              ],
+              "downloadCount": 506,
+              "sortableGameVersions": [
+                {
+                  "gameVersionPadded": "0",
+                  "gameVersion": "",
+                  "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+                  "gameVersionName": "Forge"
+                },
+                {
+                  "gameVersionPadded": "0000000001.0000000016.0000000002",
+                  "gameVersion": "1.16.2",
+                  "gameVersionReleaseDate": "2020-08-11T16:42:21.863Z",
+                  "gameVersionName": "1.16.2"
+                }
+              ],
+              "gameVersions": [
+                "Forge",
+                "1.16.2"
+              ],
+              "fileFingerprint": 3262605319,
+              "modId": 354339
+            },
+            {
+              "id": 3583774,
+              "gameId": 432,
+              "isAvailable": true,
+              "displayName": "OpenLoader-Fabric-1.18.1-11.0.1.jar",
+              "fileName": "OpenLoader-Fabric-1.18.1-11.0.1.jar",
+              "releaseType": 3,
+              "fileStatus": 4,
+              "fileDate": "2021-12-28T23:02:57.867Z",
+              "fileLength": 47522,
+              "downloadUrl": "https://edge.forgecdn.net/files/3583/774/OpenLoader-Fabric-1.18.1-11.0.1.jar",
+              "dependencies": [],
+              "alternateFileId": 0,
+              "modules": [
+                {
+                  "fingerprint": 3575509813,
+                  "name": "META-INF"
+                },
+                {
+                  "fingerprint": 209532264,
+                  "name": "fabric.mod.json"
+                },
+                {
+                  "fingerprint": 1917811448,
+                  "name": "openloader.mixins.json"
+                },
+                {
+                  "fingerprint": 3694143524,
+                  "name": "assets"
+                },
+                {
+                  "fingerprint": 3583206371,
+                  "name": "pack.mcmeta"
+                },
+                {
+                  "fingerprint": 1493072104,
+                  "name": "OpenLoader-Fabric-1.18.1-refmap.json"
+                },
+                {
+                  "fingerprint": 1850669028,
+                  "name": "net"
+                }
+              ],
+              "isServerPack": false,
+              "hashes": [
+                {
+                  "value": "113bb8c90e35f1b5162fd9714082ae9979185e3a",
+                  "algo": 1
+                },
+                {
+                  "value": "35ed78922002d8664ad6475d36c8dc1f",
+                  "algo": 2
+                }
+              ],
+              "downloadCount": 16,
               "sortableGameVersions": [
                 {
                   "gameVersionPadded": "0000000001.0000000018.0000000001",
@@ -57475,6 +57661,204 @@
                   "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
                   "gameVersionName": "1.18.1"
                 },
+                {
+                  "gameVersionPadded": "0",
+                  "gameVersion": "",
+                  "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+                  "gameVersionName": "Fabric"
+                }
+              ],
+              "gameVersions": [
+                "1.18.1",
+                "Fabric"
+              ],
+              "fileFingerprint": 516218357,
+              "modId": 354339
+            },
+            {
+              "id": 3583775,
+              "gameId": 432,
+              "isAvailable": true,
+              "displayName": "OpenLoader-Forge-1.18.1-11.0.1.jar",
+              "fileName": "OpenLoader-Forge-1.18.1-11.0.1.jar",
+              "releaseType": 3,
+              "fileStatus": 4,
+              "fileDate": "2021-12-28T23:02:59.01Z",
+              "fileLength": 45340,
+              "downloadUrl": "https://edge.forgecdn.net/files/3583/775/OpenLoader-Forge-1.18.1-11.0.1.jar",
+              "dependencies": [],
+              "alternateFileId": 0,
+              "modules": [
+                {
+                  "fingerprint": 674067937,
+                  "name": "META-INF"
+                },
+                {
+                  "fingerprint": 1979207235,
+                  "name": "net"
+                },
+                {
+                  "fingerprint": 3583206371,
+                  "name": "pack.mcmeta"
+                },
+                {
+                  "fingerprint": 3918997548,
+                  "name": "assets"
+                }
+              ],
+              "isServerPack": false,
+              "hashes": [
+                {
+                  "value": "a6313b5415c1de6cac481ae5609970542c4cd0b9",
+                  "algo": 1
+                },
+                {
+                  "value": "574491c9c2e562d39a375369d7dc2466",
+                  "algo": 2
+                }
+              ],
+              "downloadCount": 12,
+              "sortableGameVersions": [
+                {
+                  "gameVersionPadded": "0000000001.0000000018.0000000001",
+                  "gameVersion": "1.18.1",
+                  "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+                  "gameVersionName": "1.18.1"
+                },
+                {
+                  "gameVersionPadded": "0",
+                  "gameVersion": "",
+                  "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+                  "gameVersionName": "Forge"
+                }
+              ],
+              "gameVersions": [
+                "1.18.1",
+                "Forge"
+              ],
+              "fileFingerprint": 956316570,
+              "modId": 354339
+            },
+            {
+              "id": 3697233,
+              "gameId": 432,
+              "isAvailable": true,
+              "displayName": "OpenLoader-Fabric-1.18.2-12.0.1.jar",
+              "fileName": "OpenLoader-Fabric-1.18.2-12.0.1.jar",
+              "releaseType": 1,
+              "fileStatus": 4,
+              "fileDate": "2022-03-18T04:01:02.733Z",
+              "fileLength": 20232,
+              "downloadUrl": "https://edge.forgecdn.net/files/3697/233/OpenLoader-Fabric-1.18.2-12.0.1.jar",
+              "dependencies": [],
+              "alternateFileId": 0,
+              "modules": [
+                {
+                  "fingerprint": 1482908261,
+                  "name": "META-INF"
+                },
+                {
+                  "fingerprint": 4210052436,
+                  "name": "fabric.mod.json"
+                },
+                {
+                  "fingerprint": 3009178642,
+                  "name": "openloader.mixins.json"
+                },
+                {
+                  "fingerprint": 1757325782,
+                  "name": "assets"
+                },
+                {
+                  "fingerprint": 3583206371,
+                  "name": "pack.mcmeta"
+                },
+                {
+                  "fingerprint": 522528543,
+                  "name": "OpenLoader-Fabric-1.18.2-refmap.json"
+                },
+                {
+                  "fingerprint": 1634218306,
+                  "name": "net"
+                }
+              ],
+              "isServerPack": false,
+              "hashes": [
+                {
+                  "value": "42cbf1d2020798de5215329a306be48f5bbcc811",
+                  "algo": 1
+                },
+                {
+                  "value": "9fa1b5634d034d21286797dbbc342459",
+                  "algo": 2
+                }
+              ],
+              "downloadCount": 0,
+              "sortableGameVersions": [
+                {
+                  "gameVersionPadded": "0",
+                  "gameVersion": "",
+                  "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+                  "gameVersionName": "Fabric"
+                },
+                {
+                  "gameVersionPadded": "0000000001.0000000018.0000000002",
+                  "gameVersion": "1.18.2",
+                  "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+                  "gameVersionName": "1.18.2"
+                }
+              ],
+              "gameVersions": [
+                "Fabric",
+                "1.18.2"
+              ],
+              "fileFingerprint": 1889332202,
+              "modId": 354339
+            },
+            {
+              "id": 3697234,
+              "gameId": 432,
+              "isAvailable": true,
+              "displayName": "OpenLoader-Forge-1.18.2-12.0.1.jar",
+              "fileName": "OpenLoader-Forge-1.18.2-12.0.1.jar",
+              "releaseType": 1,
+              "fileStatus": 4,
+              "fileDate": "2022-03-18T04:01:04.73Z",
+              "fileLength": 21632,
+              "downloadUrl": "https://edge.forgecdn.net/files/3697/234/OpenLoader-Forge-1.18.2-12.0.1.jar",
+              "dependencies": [],
+              "alternateFileId": 0,
+              "modules": [
+                {
+                  "fingerprint": 1785023732,
+                  "name": "META-INF"
+                },
+                {
+                  "fingerprint": 825288726,
+                  "name": "assets"
+                },
+                {
+                  "fingerprint": 1979207235,
+                  "name": "net"
+                },
+                {
+                  "fingerprint": 3583206371,
+                  "name": "pack.mcmeta"
+                }
+              ],
+              "isServerPack": false,
+              "hashes": [
+                {
+                  "value": "358ac27631553212dbc88dbd67a94247cf9debaf",
+                  "algo": 1
+                },
+                {
+                  "value": "0895b10593c748ab7cc249c536b9b986",
+                  "algo": 2
+                }
+              ],
+              "downloadCount": 0,
+              "sortableGameVersions": [
                 {
                   "gameVersionPadded": "0000000001.0000000018.0000000002",
                   "gameVersion": "1.18.2",
@@ -57486,22 +57870,14 @@
                   "gameVersion": "",
                   "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
                   "gameVersionName": "Forge"
-                },
-                {
-                  "gameVersionPadded": "0000000001.0000000018",
-                  "gameVersion": "1.18",
-                  "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-                  "gameVersionName": "1.18"
                 }
               ],
               "gameVersions": [
-                "1.18.1",
                 "1.18.2",
-                "Forge",
-                "1.18"
+                "Forge"
               ],
-              "fileFingerprint": 2888557238,
-              "modId": 534502
+              "fileFingerprint": 3458931106,
+              "modId": 354339
             }
           ],
           "categories": [
@@ -57516,172 +57892,307 @@
               "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
               "parentCategoryId": 6,
               "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
             }
           ],
           "status": 4,
-          "primaryCategoryId": 424,
-          "slug": "load-my-resources-forge",
+          "primaryCategoryId": 421,
+          "slug": "open-loader",
           "isFeatured": false,
-          "dateModified": "2022-03-03T19:26:42.013Z",
-          "dateCreated": "2021-10-06T21:23:45.293Z",
-          "dateReleased": "2021-12-02T01:49:27.557Z",
+          "dateModified": "2022-03-29T14:23:02.017Z",
+          "dateCreated": "2019-12-11T03:30:11.26Z",
+          "dateReleased": "2022-03-18T04:01:04.73Z",
           "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/load-my-resources-forge",
-            "issuesUrl": "https://github.com/Keksuccino/Load-My-Resources/issues",
-            "sourceUrl": "https://github.com/Keksuccino/Load-My-Resources"
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/open-loader",
+            "wikiUrl": "https://github.com/Darkhax-Minecraft/Open-Loader/wiki",
+            "issuesUrl": "https://github.com/Darkhax-Minecraft/Open-Loader/issues",
+            "sourceUrl": "https://github.com/Darkhax-Minecraft/Open-Loader"
           },
           "logo": {
-            "id": 441419,
+            "id": 272335,
             "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/441/419/256/256/637691522253742576.png",
-            "title": "637691522253742576.png",
-            "url": "https://media.forgecdn.net/avatars/441/419/637691522253742576.png",
-            "modId": 534502
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/272/335/256/256/637250884276162054.png",
+            "title": "637250884276162054.png",
+            "url": "https://media.forgecdn.net/avatars/272/335/637250884276162054.png",
+            "modId": 354339
           },
-          "allowModDistribution": false,
+          "allowModDistribution": true,
           "screenshots": [],
           "latestFilesIndexes": [
             {
-              "gameVersion": "1.18.1",
+              "gameVersion": "1.18.2",
               "gameVersionTypeId": 73250,
               "modLoader": 1,
-              "fileId": 3544605,
-              "filename": "loadmyresources_1.0.1_MC_1.18.jar",
+              "fileId": 3697234,
+              "filename": "OpenLoader-Forge-1.18.2-12.0.1.jar",
               "releaseType": 1
             },
             {
               "gameVersion": "1.18.2",
               "gameVersionTypeId": 73250,
-              "modLoader": 1,
-              "fileId": 3544605,
-              "filename": "loadmyresources_1.0.1_MC_1.18.jar",
+              "modLoader": 4,
+              "fileId": 3697233,
+              "filename": "OpenLoader-Fabric-1.18.2-12.0.1.jar",
               "releaseType": 1
             },
             {
-              "gameVersion": "1.18",
+              "gameVersion": "1.18.1",
               "gameVersionTypeId": 73250,
               "modLoader": 1,
-              "fileId": 3544605,
-              "filename": "loadmyresources_1.0.1_MC_1.18.jar",
+              "fileId": 3618465,
+              "filename": "OpenLoader-Forge-1.18.1-11.0.4.jar",
               "releaseType": 1
+            },
+            {
+              "gameVersion": "1.18.1",
+              "gameVersionTypeId": 73250,
+              "modLoader": 4,
+              "fileId": 3618464,
+              "filename": "OpenLoader-Fabric-1.18.1-11.0.4.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.18.1",
+              "gameVersionTypeId": 73250,
+              "modLoader": 1,
+              "fileId": 3583775,
+              "filename": "OpenLoader-Forge-1.18.1-11.0.1.jar",
+              "releaseType": 3
+            },
+            {
+              "gameVersion": "1.18.1",
+              "gameVersionTypeId": 73250,
+              "modLoader": 4,
+              "fileId": 3583774,
+              "filename": "OpenLoader-Fabric-1.18.1-11.0.1.jar",
+              "releaseType": 3
             },
             {
               "gameVersion": "1.17.1",
               "gameVersionTypeId": 73242,
               "modLoader": 1,
-              "fileId": 3495964,
-              "filename": "loadmyresources_1.0.1_MC_1.17.1.jar",
+              "fileId": 3505001,
+              "filename": "OpenLoader-Forge-1.17.1-10.0.3.jar",
               "releaseType": 1
             },
             {
-              "gameVersion": "1.16.3",
+              "gameVersion": "1.17.1",
+              "gameVersionTypeId": 73242,
+              "modLoader": 4,
+              "fileId": 3400977,
+              "filename": "OpenLoader-fabric-1.17.1-3.0.1.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.17",
+              "gameVersionTypeId": 73242,
+              "modLoader": 4,
+              "fileId": 3347157,
+              "filename": "OpenLoader-fabric-1.17-2.0.1.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.16.5",
               "gameVersionTypeId": 70886,
-              "modLoader": 1,
-              "fileId": 3495963,
-              "filename": "loadmyresources_1.0.1_MC_1.16.2-1.16.5.jar",
+              "modLoader": 4,
+              "fileId": 3343809,
+              "filename": "OpenLoader-fabric-1.16.5-1.0.2.jar",
               "releaseType": 1
             },
             {
               "gameVersion": "1.16.5",
               "gameVersionTypeId": 70886,
               "modLoader": 1,
-              "fileId": 3495963,
-              "filename": "loadmyresources_1.0.1_MC_1.16.2-1.16.5.jar",
+              "fileId": 3199872,
+              "filename": "OpenLoader-1.16.5-9.0.3.jar",
               "releaseType": 1
             },
             {
               "gameVersion": "1.16.4",
               "gameVersionTypeId": 70886,
               "modLoader": 1,
-              "fileId": 3495963,
-              "filename": "loadmyresources_1.0.1_MC_1.16.2-1.16.5.jar",
+              "fileId": 3185384,
+              "filename": "OpenLoader-1.16.4-8.0.3.jar",
               "releaseType": 1
+            },
+            {
+              "gameVersion": "1.16.3",
+              "gameVersionTypeId": 70886,
+              "modLoader": 1,
+              "fileId": 3060693,
+              "filename": "OpenLoader-1.16.3-7.0.3.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.16.3",
+              "gameVersionTypeId": 70886,
+              "modLoader": 1,
+              "fileId": 3060655,
+              "filename": "OpenLoader-1.16.3-7.0.2.jar",
+              "releaseType": 3
             },
             {
               "gameVersion": "1.16.2",
               "gameVersionTypeId": 70886,
               "modLoader": 1,
-              "fileId": 3495963,
-              "filename": "loadmyresources_1.0.1_MC_1.16.2-1.16.5.jar",
+              "fileId": 3049379,
+              "filename": "OpenLoader-1.16.2-6.0.2.jar",
+              "releaseType": 2
+            },
+            {
+              "gameVersion": "1.16.1",
+              "gameVersionTypeId": 70886,
+              "modLoader": 1,
+              "fileId": 3018721,
+              "filename": "OpenLoader-1.16.1-5.0.1.jar",
               "releaseType": 1
             },
             {
-              "gameVersion": "1.12.1",
-              "gameVersionTypeId": 628,
+              "gameVersion": "1.15.2",
+              "gameVersionTypeId": 68722,
               "modLoader": 1,
-              "fileId": 3495962,
-              "filename": "loadmyresources_1.0.1_MC_1.12-1.12.2.jar",
+              "fileId": 2957023,
+              "filename": "OpenLoader-1.15.2-4.0.5.jar",
               "releaseType": 1
             },
             {
-              "gameVersion": "1.12",
-              "gameVersionTypeId": 628,
-              "modLoader": 1,
-              "fileId": 3495962,
-              "filename": "loadmyresources_1.0.1_MC_1.12-1.12.2.jar",
+              "gameVersion": "1.15.2",
+              "gameVersionTypeId": 68722,
+              "modLoader": 0,
+              "fileId": 2922848,
+              "filename": "OpenLoader-1.15.2-4.0.3.jar",
               "releaseType": 1
             },
             {
-              "gameVersion": "1.12.2",
-              "gameVersionTypeId": 628,
+              "gameVersion": "1.15.1",
+              "gameVersionTypeId": 68722,
+              "modLoader": 0,
+              "fileId": 2867000,
+              "filename": "OpenLoader-1.15.1-3.0.4.jar",
+              "releaseType": 3
+            },
+            {
+              "gameVersion": "1.15.1",
+              "gameVersionTypeId": 68722,
               "modLoader": 1,
-              "fileId": 3495962,
-              "filename": "loadmyresources_1.0.1_MC_1.12-1.12.2.jar",
+              "fileId": 2861295,
+              "filename": "OpenLoader-1.15.1-3.0.3.jar",
               "releaseType": 1
+            },
+            {
+              "gameVersion": "1.14.4",
+              "gameVersionTypeId": 64806,
+              "modLoader": 1,
+              "fileId": 2861288,
+              "filename": "OpenLoader-1.14.4-1.0.4.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.15",
+              "gameVersionTypeId": 68722,
+              "modLoader": 1,
+              "fileId": 2855547,
+              "filename": "OpenLoader-1.15-2.0.1.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.14.4",
+              "gameVersionTypeId": 64806,
+              "modLoader": 0,
+              "fileId": 2842440,
+              "filename": "OpenLoader-1.14.4-1.0.3.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.14.4",
+              "gameVersionTypeId": 64806,
+              "modLoader": 0,
+              "fileId": 2841492,
+              "filename": "OpenLoader-1.14.4-1.0.2.jar",
+              "releaseType": 3
             }
           ],
-          "mainFileId": 3544605
+          "mainFileId": 3697234
         },
         "curseForgeFile": {
-          "id": 3544605,
+          "id": 3697234,
           "gameId": 432,
           "isAvailable": true,
-          "displayName": "Load My Resources v1.0.1 MC 1.18-1.18.2",
-          "fileName": "loadmyresources_1.0.1_MC_1.18.jar",
+          "displayName": "OpenLoader-Forge-1.18.2-12.0.1.jar",
+          "fileName": "OpenLoader-Forge-1.18.2-12.0.1.jar",
           "releaseType": 1,
           "fileStatus": 4,
-          "fileDate": "2021-12-02T01:49:27.557Z",
-          "fileLength": 31361,
-          "downloadUrl": "https://edge.forgecdn.net/files/3544/605/loadmyresources_1.0.1_MC_1.18.jar",
+          "fileDate": "2022-03-18T04:01:04.73Z",
+          "fileLength": 21632,
+          "downloadUrl": "https://edge.forgecdn.net/files/3697/234/OpenLoader-Forge-1.18.2-12.0.1.jar",
           "dependencies": [],
           "alternateFileId": 0,
           "modules": [
             {
-              "fingerprint": 3638939223,
+              "fingerprint": 1785023732,
               "name": "META-INF"
             },
             {
-              "fingerprint": 537968083,
-              "name": "de"
-            },
-            {
-              "fingerprint": 3432275985,
+              "fingerprint": 825288726,
               "name": "assets"
             },
             {
-              "fingerprint": 3687403166,
+              "fingerprint": 1979207235,
+              "name": "net"
+            },
+            {
+              "fingerprint": 3583206371,
               "name": "pack.mcmeta"
             }
           ],
           "isServerPack": false,
           "hashes": [
             {
-              "value": "644cbb962e84ec90a2f4334b8eb571b438a552c1",
+              "value": "358ac27631553212dbc88dbd67a94247cf9debaf",
               "algo": 1
             },
             {
-              "value": "9ce95ff6d0c9f76afac37a6011ee7028",
+              "value": "0895b10593c748ab7cc249c536b9b986",
               "algo": 2
             }
           ],
-          "downloadCount": 157532,
+          "downloadCount": 0,
           "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0000000001.0000000018.0000000001",
-              "gameVersion": "1.18.1",
-              "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-              "gameVersionName": "1.18.1"
-            },
             {
               "gameVersionPadded": "0000000001.0000000018.0000000002",
               "gameVersion": "1.18.2",
@@ -57693,30 +58204,304 @@
               "gameVersion": "",
               "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
               "gameVersionName": "Forge"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000018",
-              "gameVersion": "1.18",
-              "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-              "gameVersionName": "1.18"
             }
           ],
           "gameVersions": [
-            "1.18.1",
             "1.18.2",
-            "Forge",
-            "1.18"
+            "Forge"
           ],
-          "fileFingerprint": 2888557238,
-          "modId": 534502
+          "fileFingerprint": 3458931106,
+          "modId": 354339
         }
+      },
+      {
+        "name": "oc2-1.18.2-forge-0.1.7+6a003fc.jar",
+        "version": "Unknown",
+        "optional": true,
+        "file": "oc2-1.18.2-forge-0.1.7+6a003fc.jar",
+        "type": "mods",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true
+      },
+      {
+        "name": "Markdown Manual",
+        "version": "markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+        "optional": true,
+        "file": "markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+        "type": "mods",
+        "description": "Library mod for creating in-game manuals.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "curseForgeProjectId": 502485,
+        "curseForgeFileId": 3738124,
+        "curseForgeProject": {
+          "id": 502485,
+          "name": "Markdown Manual",
+          "authors": [
+            {
+              "id": 418991,
+              "name": "Sangar_",
+              "url": "https://www.curseforge.com/members/12026371-sangar_?username=sangar_"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Library mod for creating in-game manuals.",
+          "downloadCount": 10516,
+          "latestFiles": [
+            {
+              "id": 3738124,
+              "gameId": 432,
+              "isAvailable": true,
+              "displayName": "markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+              "fileName": "markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+              "releaseType": 1,
+              "fileStatus": 4,
+              "fileDate": "2022-04-07T11:40:40.16Z",
+              "fileLength": 142507,
+              "downloadUrl": "https://edge.forgecdn.net/files/3738/124/markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+              "dependencies": [],
+              "alternateFileId": 0,
+              "modules": [
+                {
+                  "fingerprint": 1625990019,
+                  "name": "META-INF"
+                },
+                {
+                  "fingerprint": 3973723630,
+                  "name": "li"
+                },
+                {
+                  "fingerprint": 3686628245,
+                  "name": "assets"
+                },
+                {
+                  "fingerprint": 3013908133,
+                  "name": "pack.mcmeta"
+                }
+              ],
+              "isServerPack": false,
+              "hashes": [
+                {
+                  "value": "6bd3213179586ef67beac3dc00f1a748d5ef856e",
+                  "algo": 1
+                },
+                {
+                  "value": "5f3f6539248b38f277e2e9ffe8d8fbdc",
+                  "algo": 2
+                }
+              ],
+              "downloadCount": 0,
+              "sortableGameVersions": [
+                {
+                  "gameVersionPadded": "0000000001.0000000018.0000000002",
+                  "gameVersion": "1.18.2",
+                  "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+                  "gameVersionName": "1.18.2"
+                },
+                {
+                  "gameVersionPadded": "0",
+                  "gameVersion": "",
+                  "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+                  "gameVersionName": "Forge"
+                }
+              ],
+              "gameVersions": [
+                "1.18.2",
+                "Forge"
+              ],
+              "fileFingerprint": 3806820130,
+              "modId": 502485
+            }
+          ],
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "slug": "markdownmanual",
+          "isFeatured": false,
+          "dateModified": "2022-04-07T11:42:08.85Z",
+          "dateCreated": "2021-07-10T18:36:42.957Z",
+          "dateReleased": "2022-04-07T11:40:40.16Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/markdownmanual",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/MightyPirates/MarkdownManual/issues",
+            "sourceUrl": "https://github.com/MightyPirates/MarkdownManual"
+          },
+          "logo": {
+            "id": 404559,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/404/559/256/256/637615390029914220.png",
+            "title": "637615390029914220.png",
+            "url": "https://media.forgecdn.net/avatars/404/559/637615390029914220.png",
+            "modId": 502485
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 379151,
+              "description": "Built-in UI with custom styling of the mod TIS-3D.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/379/151/310/172/2021-07-11_00.png",
+              "title": "TIS-3D styled UI.",
+              "url": "https://media.forgecdn.net/attachments/379/151/2021-07-11_00.png",
+              "modId": 502485
+            },
+            {
+              "id": 379152,
+              "description": "Built-in UI with a custom dark UI style.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/379/152/310/172/2021-07-11_00.png",
+              "title": "Dark themed UI.",
+              "url": "https://media.forgecdn.net/attachments/379/152/2021-07-11_00.png",
+              "modId": 502485
+            },
+            {
+              "id": 379150,
+              "description": "The default style of the built-in manual UI.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/379/150/310/172/2021-07-11_00.png",
+              "title": "Default Style",
+              "url": "https://media.forgecdn.net/attachments/379/150/2021-07-11_00.png",
+              "modId": 502485
+            }
+          ],
+          "latestFilesIndexes": [
+            {
+              "gameVersion": "1.18.2",
+              "gameVersionTypeId": 73250,
+              "modLoader": 1,
+              "fileId": 3738124,
+              "filename": "markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.18.1",
+              "gameVersionTypeId": 73250,
+              "modLoader": 1,
+              "fileId": 3565800,
+              "filename": "markdown_manual-1.18.1-forge-1.1.0+1299320.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.18",
+              "gameVersionTypeId": 73250,
+              "modLoader": 1,
+              "fileId": 3551677,
+              "filename": "markdown_manual-1.18-forge-1.1.0+2.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.17.1",
+              "gameVersionTypeId": 73242,
+              "modLoader": 1,
+              "fileId": 3414389,
+              "filename": "markdown_manual-1.17.1-forge-1.1.0+7.jar",
+              "releaseType": 1
+            },
+            {
+              "gameVersion": "1.16.5",
+              "gameVersionTypeId": 70886,
+              "modLoader": 1,
+              "fileId": 3414387,
+              "filename": "markdown_manual-1.16.5-forge-1.1.0+24.jar",
+              "releaseType": 1
+            }
+          ],
+          "mainFileId": 3738124
+        },
+        "curseForgeFile": {
+          "id": 3738124,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+          "fileName": "markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-04-07T11:40:40.16Z",
+          "fileLength": 142507,
+          "downloadUrl": "https://edge.forgecdn.net/files/3738/124/markdown_manual-1.18.2-forge-1.2.1+59006bb.jar",
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1625990019,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3973723630,
+              "name": "li"
+            },
+            {
+              "fingerprint": 3686628245,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3013908133,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6bd3213179586ef67beac3dc00f1a748d5ef856e",
+              "algo": 1
+            },
+            {
+              "value": "5f3f6539248b38f277e2e9ffe8d8fbdc",
+              "algo": 2
+            }
+          ],
+          "downloadCount": 0,
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 3806820130,
+          "modId": 502485
+        }
+      },
+      {
+        "name": "sedna-1.18.2-forge-1.0.13+7355dbe.jar",
+        "version": "Unknown",
+        "optional": true,
+        "file": "sedna-1.18.2-forge-1.0.13+7355dbe.jar",
+        "type": "mods",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true
       }
     ],
     "ignoredUpdates": [],
     "vanillaInstance": false
   },
-  "lastPlayed": 1652151924101,
-  "numPlays": 3,
+  "lastPlayed": 1652244795797,
+  "numPlays": 19,
   "id": "1.18.2",
   "complianceLevel": 1,
   "javaVersion": {
@@ -57892,8 +58677,6 @@
   },
   "libraries": [
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:securejarhandler:1.0.3",
       "downloads": {
         "artifact": {
@@ -57905,8 +58688,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm:9.2",
       "downloads": {
         "artifact": {
@@ -57918,8 +58699,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-commons:9.2",
       "downloads": {
         "artifact": {
@@ -57931,8 +58710,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-tree:9.2",
       "downloads": {
         "artifact": {
@@ -57944,8 +58721,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-util:9.2",
       "downloads": {
         "artifact": {
@@ -57957,8 +58732,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-analysis:9.2",
       "downloads": {
         "artifact": {
@@ -57970,8 +58743,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:accesstransformers:8.0.4",
       "downloads": {
         "artifact": {
@@ -57983,8 +58754,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.antlr:antlr4-runtime:4.9.1",
       "downloads": {
         "artifact": {
@@ -57996,8 +58765,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:eventbus:5.0.3",
       "downloads": {
         "artifact": {
@@ -58009,8 +58776,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:forgespi:4.0.10",
       "downloads": {
         "artifact": {
@@ -58022,8 +58787,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:coremods:5.0.1",
       "downloads": {
         "artifact": {
@@ -58035,8 +58798,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:modlauncher:9.1.3",
       "downloads": {
         "artifact": {
@@ -58048,8 +58809,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:unsafe:0.2.0",
       "downloads": {
         "artifact": {
@@ -58061,8 +58820,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "com.electronwill.night-config:core:3.6.4",
       "downloads": {
         "artifact": {
@@ -58074,8 +58831,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "com.electronwill.night-config:toml:3.6.4",
       "downloads": {
         "artifact": {
@@ -58087,8 +58842,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.apache.maven:maven-artifact:3.6.3",
       "downloads": {
         "artifact": {
@@ -58100,8 +58853,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.jodah:typetools:0.8.3",
       "downloads": {
         "artifact": {
@@ -58113,8 +58864,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecrell:terminalconsoleappender:1.2.0",
       "downloads": {
         "artifact": {
@@ -58126,8 +58875,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.jline:jline-reader:3.12.1",
       "downloads": {
         "artifact": {
@@ -58139,8 +58886,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.jline:jline-terminal:3.12.1",
       "downloads": {
         "artifact": {
@@ -58152,8 +58897,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.spongepowered:mixin:0.8.5",
       "downloads": {
         "artifact": {
@@ -58165,8 +58908,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.openjdk.nashorn:nashorn-core:15.3",
       "downloads": {
         "artifact": {
@@ -58178,8 +58919,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:bootstraplauncher:1.0.0",
       "downloads": {
         "artifact": {
@@ -58191,8 +58930,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:fmlloader:1.18.2-40.1.19",
       "downloads": {
         "artifact": {

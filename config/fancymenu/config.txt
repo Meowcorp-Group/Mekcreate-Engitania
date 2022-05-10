@@ -35,7 +35,7 @@ I:splashy = '-88';
 I:splashx = '84';
 B:hidesplashtext = 'false';
 S:splashtextfile = '';
-S:splashorientation = 'mid-left';
+S:splashorientation = 'top-centered';
 
 
 ##[loading]
@@ -51,9 +51,9 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Mekcreate Engitania';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]
