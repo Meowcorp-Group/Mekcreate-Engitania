@@ -1,7 +1,7 @@
 {
   "launcher": {
-    "name": "Mekreate dev",
-    "pack": "Mekreate dev",
+    "name": "Mekreate Engitania 2.0",
+    "pack": "Mekreate and more",
     "packId": 0,
     "externalPackId": 0,
     "version": "1",
@@ -23333,7 +23333,7 @@
               "id": 316886,
               "description": "",
               "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/316/886/310/172/reditt.png",
-              "title": "( ?° ?? ?°)",
+              "title": "( ?ï¿½ ?? ?ï¿½)",
               "url": "https://media.forgecdn.net/attachments/316/886/reditt.png",
               "modId": 225738
             },
@@ -40043,7 +40043,7 @@
         "optional": true,
         "file": "balm-3.0.3+0.jar",
         "type": "mods",
-        "description": "Abstraction Layer (but not really)™ for Blay's multiplatform mods",
+        "description": "Abstraction Layer (but not really)ï¿½ for Blay's multiplatform mods",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
@@ -40060,7 +40060,7 @@
             }
           ],
           "gameId": 432,
-          "summary": "Abstraction Layer (but not really)™ for Blay's multiplatform mods",
+          "summary": "Abstraction Layer (but not really)ï¿½ for Blay's multiplatform mods",
           "downloadCount": 2792914,
           "latestFiles": [
             {
@@ -57892,8 +57892,6 @@
   },
   "libraries": [
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:securejarhandler:1.0.3",
       "downloads": {
         "artifact": {
@@ -57905,8 +57903,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm:9.2",
       "downloads": {
         "artifact": {
@@ -57918,8 +57914,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-commons:9.2",
       "downloads": {
         "artifact": {
@@ -57931,8 +57925,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-tree:9.2",
       "downloads": {
         "artifact": {
@@ -57944,8 +57936,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-util:9.2",
       "downloads": {
         "artifact": {
@@ -57957,8 +57947,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.ow2.asm:asm-analysis:9.2",
       "downloads": {
         "artifact": {
@@ -57970,8 +57958,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:accesstransformers:8.0.4",
       "downloads": {
         "artifact": {
@@ -57983,8 +57969,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.antlr:antlr4-runtime:4.9.1",
       "downloads": {
         "artifact": {
@@ -57996,8 +57980,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:eventbus:5.0.3",
       "downloads": {
         "artifact": {
@@ -58009,8 +57991,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:forgespi:4.0.10",
       "downloads": {
         "artifact": {
@@ -58022,8 +58002,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:coremods:5.0.1",
       "downloads": {
         "artifact": {
@@ -58035,8 +58013,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:modlauncher:9.1.3",
       "downloads": {
         "artifact": {
@@ -58048,8 +58024,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:unsafe:0.2.0",
       "downloads": {
         "artifact": {
@@ -58061,8 +58035,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "com.electronwill.night-config:core:3.6.4",
       "downloads": {
         "artifact": {
@@ -58074,8 +58046,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "com.electronwill.night-config:toml:3.6.4",
       "downloads": {
         "artifact": {
@@ -58087,8 +58057,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.apache.maven:maven-artifact:3.6.3",
       "downloads": {
         "artifact": {
@@ -58100,8 +58068,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.jodah:typetools:0.8.3",
       "downloads": {
         "artifact": {
@@ -58113,8 +58079,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecrell:terminalconsoleappender:1.2.0",
       "downloads": {
         "artifact": {
@@ -58126,8 +58090,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.jline:jline-reader:3.12.1",
       "downloads": {
         "artifact": {
@@ -58139,8 +58101,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.jline:jline-terminal:3.12.1",
       "downloads": {
         "artifact": {
@@ -58152,8 +58112,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.spongepowered:mixin:0.8.5",
       "downloads": {
         "artifact": {
@@ -58165,8 +58123,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "org.openjdk.nashorn:nashorn-core:15.3",
       "downloads": {
         "artifact": {
@@ -58178,8 +58134,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "cpw.mods:bootstraplauncher:1.0.0",
       "downloads": {
         "artifact": {
@@ -58191,8 +58145,6 @@
       }
     },
     {
-      "clientreq": true,
-      "serverreq": true,
       "name": "net.minecraftforge:fmlloader:1.18.2-40.1.19",
       "downloads": {
         "artifact": {
