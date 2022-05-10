@@ -1,0 +1,230 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 10
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=400322%
+  width = 126
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = Together...
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-left
+  x = 138
+  action = movebutton
+  y = -46
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 74
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=502382%
+  width = 62
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = Quit
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = Bye...
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 10
+  action = movebutton
+  y = -46
+}
+
+customization {
+  identifier = %id=400298%
+  width = 126
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = Alone...
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = mid-left
+  x = 138
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-left
+  x = 138
+  action = movebutton
+  y = 20
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 10
+  action = movebutton
+  y = 20
+}
+
+customization {
+  identifier = %id=400382%
+  width = 126
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = Settings...
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-left
+  x = 138
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-left
+  x = 10
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=400346%
+  width = 62
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = Forge...
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-left
+  x = 138
+  action = movebutton
+  y = -24
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #00000052
+  x = -3
+  width = 213
+  action = addshape
+  actionid = df6f1589-6856-40ad-8057-7491ab9328e71652154495221
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Meowcorp
+  loopbackgroundanimations = true
+  hoverlabel = Issues...
+  x = 10
+  width = 126
+  actionid = bf723c01-0d58-48d6-9f0b-0a9ed2b2a6f71651838588564
+  action = addbutton
+  y = -2
+  value = https://packs.meowcorp.net/modpacks/mekcreate
+  height = 20
+}
+
+customization {
+  path = resources/mecktreatetaniaengiwatermark.png
+  orientation = mid-left
+  x = 10
+  width = 148
+  action = addtexture
+  actionid = bd36d2f6-6dbf-4807-a3b9-3d156b6ff1361652152045930
+  y = -82
+  height = 34
+}
+
+customization {
+  showname = true
+  orientation = mid-left
+  crouching = false
+  x = 183
+  slim = false
+  actionid = e1912e53-7713-451c-b1a0-393c01739e971652153948664
+  action = addentity
+  y = 60
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
