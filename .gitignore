@@ -18,6 +18,9 @@ screenshots/
 emojiful/cache/
 local/
 chiselsandbits/
+fancymenu_data/
+config/jei/world/
+simplebackups/
 options.txt
 realms_persistence.json
 reauth.toml
