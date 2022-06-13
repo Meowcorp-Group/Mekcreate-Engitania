@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "supplementaries:block/hanging_signs/quark/hanging_sign_azalea_loader",
+      "y": 270
+    },
+    "axis=z": {
+      "model": "supplementaries:block/hanging_signs/quark/hanging_sign_azalea_loader"
+    }
+  }
+}

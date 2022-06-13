@@ -14,27 +14,38 @@ customization {
 }
 
 customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
   x = 10
   action = movebutton
-  y = -24
+  y = 1
 }
 
 customization {
-  identifier = %id=400322%
-  width = 126
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 106
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = sethoverlabel
   label = Together...
 }
@@ -42,61 +53,61 @@ customization {
 customization {
   identifier = %id=376322%
   orientation = mid-left
-  x = 138
+  x = 159
   action = movebutton
-  y = -46
+  y = -21
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
-  x = 74
+  x = 95
   action = movebutton
-  y = 42
+  y = 45
 }
 
 customization {
-  identifier = %id=502382%
-  width = 62
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 84
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = Quit
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = sethoverlabel
   label = Bye...
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
   x = 10
   action = movebutton
-  y = -46
+  y = -21
 }
 
 customization {
-  identifier = %id=400298%
-  width = 126
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 106
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = sethoverlabel
   label = Alone...
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
@@ -105,69 +116,69 @@ customization {
   orientation = mid-left
   x = 138
   action = movebutton
-  y = -2
+  y = -21
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-left
   x = 138
   action = movebutton
-  y = 20
+  y = 1
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
   x = 10
   action = movebutton
-  y = 20
+  y = 45
 }
 
 customization {
-  identifier = %id=400382%
-  width = 126
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 84
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value = Options
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = sethoverlabel
   label = Settings...
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
-  x = 138
+  x = 117
   action = movebutton
-  y = 42
+  y = 1
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
   x = 10
   action = movebutton
-  y = 42
+  y = 23
 }
 
 customization {
-  identifier = %id=400346%
-  width = 62
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 84
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = sethoverlabel
   label = Forge...
 }
@@ -175,20 +186,20 @@ customization {
 customization {
   identifier = %id=376346%
   orientation = mid-left
-  x = 138
+  x = 117
   action = movebutton
-  y = -24
+  y = -21
 }
 
 customization {
   showname = true
   orientation = mid-left
   crouching = false
-  x = 183
+  x = 200
   slim = false
   actionid = e1912e53-7713-451c-b1a0-393c01739e971652153948664
   action = addentity
-  y = 60
+  y = 64
   scale = 30
   playername = %playername%
   parrot = false
@@ -201,38 +212,54 @@ customization {
   label = Meowcorp
   loopbackgroundanimations = true
   hoverlabel = Issues...
-  x = 10
-  width = 126
+  x = 95
+  width = 84
   actionid = bf723c01-0d58-48d6-9f0b-0a9ed2b2a6f71651838588564
   action = addbutton
-  y = -2
+  y = 23
   value = https://packs.meowcorp.net/modpacks/mekcreate
   height = 20
 }
 
 customization {
-  vr:showif:guiscale = true
-  path = config/openloader/resources/MekcreateAssets/assets/mekcreate/textures/gui/meklogo22.png
-  orientation = top-centered
-  x = -310
-  width = 620
-  action = addtexture
-  actionid = 8b0c1825-8c8e-48f8-933e-4e3b8f09cfa91652232164905
-  y = 128
-  vr:value:guiscale = <2.0
-  height = 94
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = :)
+  loopbackgroundanimations = true
+  hoverlabel = :D
+  x = 159
+  width = 20
+  actionid = d73c9402-3dea-4bf7-a8e7-31ba7d9ba1d21652885333985
+  action = addbutton
+  y = 136
+  value = https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  height = 20
 }
 
 customization {
-  vr:showif:guiscale = true
   path = config/openloader/resources/MekcreateAssets/assets/mekcreate/textures/gui/meklogo22.png
   orientation = top-centered
-  x = -240
-  width = 480
+  x = -150
+  width = 300
   action = addtexture
-  actionid = 3c66714a-ed24-411c-becb-67d034ebf5301652232381076
-  y = 57
-  vr:value:guiscale = >1.0,<3.0
-  height = 73
+  actionid = d6c92a60-c67c-463a-afe6-27905880ef801652885476239
+  y = 31
+  height = 45
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  x = 93
+  actionid = 0c1a9224-9e83-4163-bd78-471b345105a21655084771328
+  action = addsplash
+  y = 63
+  scale = 1.0
+  refresh = false
+  text = luv me craft, luv me mods, simple as.
+  bouncing = true
 }
 

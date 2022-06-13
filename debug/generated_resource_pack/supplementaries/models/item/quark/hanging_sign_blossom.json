@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "supplementaries:items/hanging_signs/quark/hanging_sign_blossom"
+  }
+}

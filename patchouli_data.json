@@ -1,1 +1,22 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "advancedperipherals:manual": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "rftoolsbase:manual": {
+      "viewedEntries": [
+        "rftoolspower:powermonitor/powermonitor"
+      ],
+      "bookmarks": [],
+      "history": [
+        "rftoolspower:powermonitor/powermonitor"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
