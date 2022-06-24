@@ -48,6 +48,24 @@
 		#settings.patterns.export-path.comment
 		export-path = "./chiselsandbits/patterns"
 
+	[settings.placement]
+
+		[settings.placement.render-mode]
+			#settings.placement.render-mode.success.comment
+			#Allowed Values: GHOST_BLOCK_MODEL, GHOST_BLOCK_MODEL_SOLID_COLOR, WIREFRAME
+			success = "GHOST_BLOCK_MODEL"
+			#settings.placement.render-mode.failed.comment
+			#Allowed Values: GHOST_BLOCK_MODEL, GHOST_BLOCK_MODEL_SOLID_COLOR, WIREFRAME
+			failed = "GHOST_BLOCK_MODEL_SOLID_COLOR"
+
+		[settings.placement.color]
+			#settings.placement.color.success.comment
+			success = [0.1882352977991104, 0.47058823704719543, 0.7882353067398071, 0.7058823704719543]
+			#settings.placement.color.not-fitting.comment
+			not-fitting = [0.7176470756530762, 0.2549019753932953, 0.054901961237192154, 0.7058823704719543]
+			#settings.placement.color.missing-bits-or-space.comment
+			missing-bits-or-space = [1.0, 0.8588235378265381, 0.3450980484485626, 0.7058823704719543]
+
 [performance]
 
 	[performance.caches]

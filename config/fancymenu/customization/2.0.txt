@@ -222,7 +222,7 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = openlink
   label = :)
@@ -232,7 +232,7 @@ customization {
   width = 20
   actionid = d73c9402-3dea-4bf7-a8e7-31ba7d9ba1d21652885333985
   action = addbutton
-  y = 136
+  y = 1
   value = https://www.youtube.com/watch?v=dQw4w9WgXcQ
   height = 20
 }
