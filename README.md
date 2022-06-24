@@ -1,6 +1,5 @@
-Current name:
 # Mekcreate Engitania
-Mame changes as we add more mods (Perhaps [suggest a name change](https://github.com/Meowcorp-Group/Mekcreate-and-more/issues/new)?).
+Despite being named Mekcreate Engitania, it has more content than just those four mods.
 
 ## About
 Mekcreate Engitania is a kitchen sink modpack that is (currently) based around these main mods:
@@ -8,6 +7,8 @@ Mekcreate Engitania is a kitchen sink modpack that is (currently) based around t
 - Create
 - Immersive Engineering
 - Botania
+- Thermal Series
+- RFTools
 
 There is no goal. Do whatever you want!
 
