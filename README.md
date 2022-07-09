@@ -12,6 +12,9 @@ Mekcreate Engitania is a kitchen sink modpack that is (currently) based around t
 
 There is no goal. Do whatever you want!
 
+## Development
+honestly i have no idea how to set up a development environment, but i assume you import the release zip and then somehow link it to this git repo
+
 ## Contributing
 Submit an [issue](https://github.com/Meowcorp-Group/Mekcreate-and-more/issues) if you discover any issues or want to suggest a feature.
 
