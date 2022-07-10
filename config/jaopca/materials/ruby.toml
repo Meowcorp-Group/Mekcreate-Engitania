@@ -18,4 +18,6 @@
 [mekanism]
 	#The default base to use in Mekanism's Combiner to recreate ores.
 	ore_base = "#forge:cobblestone/normal"
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "#forge:cobblestone/normal"
 
