@@ -8048,169 +8048,6 @@
         }
       },
       {
-        "name": "BetterF3",
-        "version": "BetterF3 Forge v1.2.5 (1.18.2)",
-        "optional": true,
-        "file": "BetterF3-1.2.5-Forge-1.18.2.jar",
-        "type": "mods",
-        "description": "A mod that provides a highly customizable, more human-readable Debug HUD. ",
-        "disabled": true,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 401648,
-        "curseForgeFileId": 3798367,
-        "curseForgeProject": {
-          "id": 401648,
-          "name": "BetterF3",
-          "authors": [
-            {
-              "id": 310386,
-              "name": "cominixo",
-              "url": "https://www.curseforge.com/members/42614218-cominixo?username=cominixo"
-            }
-          ],
-          "gameId": 432,
-          "summary": "A mod that provides a highly customizable, more human-readable Debug HUD. ",
-          "categories": [
-            {
-              "name": "Map and Information",
-              "slug": "map-information",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
-              "dateModified": "2014-05-08T17:42:23.74Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 423,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 423,
-          "classId": 6,
-          "slug": "betterf3",
-          "isFeatured": false,
-          "dateModified": "2022-05-20T20:00:39.983Z",
-          "dateCreated": "2020-08-11T15:52:12.637Z",
-          "dateReleased": "2022-05-20T19:56:59.55Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/betterf3",
-            "wikiUrl": "",
-            "issuesUrl": "https://github.com/cominixo/BetterF3/issues/",
-            "sourceUrl": "https://github.com/cominixo/BetterF3"
-          },
-          "logo": {
-            "id": 293027,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/293/27/256/256/637327750859254377.png",
-            "title": "637327750859254377.png",
-            "url": "https://media.forgecdn.net/avatars/293/27/637327750859254377.png",
-            "modId": 401648
-          },
-          "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 3798366
-        },
-        "curseForgeFile": {
-          "id": 3798367,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "BetterF3 Forge v1.2.5 (1.18.2)",
-          "fileName": "BetterF3-1.2.5-Forge-1.18.2.jar",
-          "releaseType": 2,
-          "fileStatus": 4,
-          "fileDate": "2022-05-20T19:56:59.55Z",
-          "fileLength": 146530,
-          "dependencies": [
-            {
-              "fileId": 0,
-              "modId": 348521,
-              "relationType": 3
-            },
-            {
-              "fileId": 0,
-              "modId": 308702,
-              "relationType": 2
-            }
-          ],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 802764800,
-              "name": "BetterF3-common-refmap.json"
-            },
-            {
-              "fingerprint": 1493072104,
-              "name": "BetterF3-forge-refmap.json"
-            },
-            {
-              "fingerprint": 2870906650,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 1190650729,
-              "name": "architectury_inject_BetterF3_common_ab18e6e3a72c439a9e67413360717d0a_f364a43fcca7cb9b49cc416a27353459714614dfe12cfdd373348050102fc7cbBetterF3125devjar"
-            },
-            {
-              "fingerprint": 3791855014,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 2275812535,
-              "name": "betterf3.forge.mixins.json"
-            },
-            {
-              "fingerprint": 2901212748,
-              "name": "betterf3.mixins.json"
-            },
-            {
-              "fingerprint": 773465483,
-              "name": "icon.png"
-            },
-            {
-              "fingerprint": 1053609405,
-              "name": "me"
-            },
-            {
-              "fingerprint": 3871385893,
-              "name": "pack.mcmeta"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "a099fae06e06c76858da57c46650459658fc578c",
-              "algo": 1
-            },
-            {
-              "value": "2e708dc2e823ac452fb6e87074d4e309",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0000000001.0000000018.0000000002",
-              "gameVersion": "1.18.2",
-              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
-              "gameVersionName": "1.18.2"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-              "gameVersionName": "Forge"
-            }
-          ],
-          "gameVersions": [
-            "1.18.2",
-            "Forge"
-          ],
-          "fileFingerprint": 719909251,
-          "modId": 401648
-        }
-      },
-      {
         "name": "Catalogue",
         "version": "Catalogue 1.6.2",
         "optional": true,
@@ -17650,7 +17487,136 @@
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
-        "skipped": false
+        "skipped": false,
+        "curseForgeProjectId": 225781,
+        "curseForgeFileId": 3586247,
+        "curseForgeProject": {
+          "id": 225781,
+          "name": "TellMe",
+          "authors": [
+            {
+              "id": 17697,
+              "name": "masady",
+              "url": "https://www.curseforge.com/members/8604980-masady?username=masady"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A mod that can output registry dumps and other information and lists about the game",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 435,
+          "classId": 6,
+          "slug": "tellme",
+          "isFeatured": false,
+          "dateModified": "2022-01-14T14:01:06.627Z",
+          "dateCreated": "2014-11-23T20:52:29.587Z",
+          "dateReleased": "2021-12-30T23:18:20.707Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/tellme",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/maruohon/tellme/issues",
+            "sourceUrl": "https://github.com/maruohon/tellme"
+          },
+          "logo": {
+            "id": 12512,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/12/512/256/256/635530490575584180.png",
+            "title": "635530490575584180.png",
+            "url": "https://media.forgecdn.net/avatars/12/512/635530490575584180.png",
+            "modId": 225781
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 301198,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/301/198/310/172/tellme_1.png",
+              "title": "Commands in 1.14.4",
+              "url": "https://media.forgecdn.net/attachments/301/198/tellme_1.png",
+              "modId": 225781
+            },
+            {
+              "id": 17350,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/17/350/310/172/tellme_blockstats.png",
+              "title": "TellMe blockstats",
+              "url": "https://media.forgecdn.net/attachments/17/350/tellme_blockstats.png",
+              "modId": 225781
+            }
+          ],
+          "mainFileId": 3586247
+        },
+        "curseForgeFile": {
+          "id": 3586247,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "tellme-forge-1.18.1-0.10.0.jar",
+          "fileName": "tellme-forge-1.18.1-0.10.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2021-12-30T23:18:20.707Z",
+          "fileLength": 329676,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 84953030,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4127815622,
+              "name": "fi"
+            },
+            {
+              "fingerprint": 296424754,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c3cf2faf132f1b0a6e5c5c5abd40a61511daadaf",
+              "algo": 1
+            },
+            {
+              "value": "ed2465c5166085b0ee914e87df86a695",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000001",
+              "gameVersion": "1.18.1",
+              "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+              "gameVersionName": "1.18.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1858314501,
+          "modId": 225781
+        }
       },
       {
         "name": "Applied Energistics 2",
@@ -24586,7 +24552,7 @@
     "lastPlayed": 1657442209164,
     "numPlays": 40,
     "lastExportName": "Mekreate Engitania",
-    "lastExportVersion": "2.3",
+    "lastExportVersion": "3.1",
     "lastExportAuthor": "Waoweens",
     "lastExportSaveTo": "/home/waoweens/Minecraft/Exports"
   },
