@@ -23465,12 +23465,1126 @@
           "fileFingerprint": 153125436,
           "modId": 406360
         }
+      },
+      {
+        "name": "AEInfinityBooster",
+        "version": "AEInfinityBooster v1.18.2-1.1.0+9",
+        "optional": true,
+        "file": "AEInfinityBooster-1.18.2-1.1.0+9.jar",
+        "type": "mods",
+        "description": "Added Infinity Range Card and Dimension Card to AE2",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 559313,
+        "curseForgeFileId": 3787188,
+        "curseForgeProject": {
+          "id": 559313,
+          "name": "AEInfinityBooster",
+          "authors": [
+            {
+              "id": 479634,
+              "name": "hexeptiondev",
+              "url": "https://www.curseforge.com/members/12557677-hexeptiondev?username=hexeptiondev"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Added Infinity Range Card and Dimension Card to AE2",
+          "categories": [
+            {
+              "name": "Applied Energistics 2",
+              "slug": "applied-energistics-2",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/applied-energistics-2",
+              "dateModified": "2015-09-14T14:18:48.563Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 4545,
+              "iconUrl": "https://media.forgecdn.net/avatars/25/698/635778191285491081.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 426,
+          "classId": 6,
+          "slug": "aeinfinitybooster",
+          "isFeatured": false,
+          "dateModified": "2022-05-11T16:49:29.387Z",
+          "dateCreated": "2021-12-22T11:38:35.343Z",
+          "dateReleased": "2022-05-11T16:48:07.167Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/aeinfinitybooster",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Hexeption/AEInfinityBooster/issues",
+            "sourceUrl": "https://github.com/Hexeption/AEInfinityBooster"
+          },
+          "logo": {
+            "id": 470562,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/470/562/256/256/637757699153918787.png",
+            "title": "637757699153918787.png",
+            "url": "https://media.forgecdn.net/avatars/470/562/637757699153918787.png",
+            "modId": 559313
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 3787188
+        },
+        "curseForgeFile": {
+          "id": 3787188,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "AEInfinityBooster v1.18.2-1.1.0+9",
+          "fileName": "AEInfinityBooster-1.18.2-1.1.0+9.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-05-11T16:48:07.167Z",
+          "fileLength": 22680,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 223794,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 989525193,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 11570416,
+              "name": "uk"
+            },
+            {
+              "fingerprint": 2976395237,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 304014158,
+              "name": "data"
+            },
+            {
+              "fingerprint": 893867412,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 1903733006,
+              "name": "AEInfinityBooster.mixins.json"
+            },
+            {
+              "fingerprint": 2023315949,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1302544607,
+              "name": "AEInfinityBooster.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "1f915abe753d53cb425439d271c8ac212ce410e3",
+              "algo": 1
+            },
+            {
+              "value": "6e8da500cd39d323c26facdda5321d6a",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000018",
+              "gameVersion": "1.18",
+              "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+              "gameVersionName": "1.18"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge",
+            "1.18"
+          ],
+          "fileFingerprint": 3172326556,
+          "modId": 559313
+        }
+      },
+      {
+        "name": "Framed Compacting Drawers",
+        "version": "framedcompactdrawers-1.18-4.1.0.jar",
+        "optional": true,
+        "file": "framedcompactdrawers-1.18-4.1.0.jar",
+        "type": "mods",
+        "description": "Adds (more) Framed Drawers to the Storage Drawers mod",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 376351,
+        "curseForgeFileId": 3808242,
+        "curseForgeProject": {
+          "id": 376351,
+          "name": "Framed Compacting Drawers",
+          "authors": [
+            {
+              "id": 282883,
+              "name": "Eutropium",
+              "url": "https://www.curseforge.com/members/100743576-eutropium?username=eutropium"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds (more) Framed Drawers to the Storage Drawers mod",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 426,
+          "classId": 6,
+          "slug": "framed-compacting-drawers",
+          "isFeatured": false,
+          "dateModified": "2022-07-04T15:02:17.927Z",
+          "dateCreated": "2020-04-16T15:43:48.77Z",
+          "dateReleased": "2022-07-04T15:00:44.523Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/framed-compacting-drawers",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/eutropius225/FramedCompactDrawers/issues",
+            "sourceUrl": "https://github.com/eutropius225/FramedCompactDrawers"
+          },
+          "logo": {
+            "id": 264387,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/264/387/256/256/637226486288344415.png",
+            "title": "637226486288344415.png",
+            "url": "https://media.forgecdn.net/avatars/264/387/637226486288344415.png",
+            "modId": 376351
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 286958,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/286/958/310/172/java_frxpsyc5fd.png",
+              "title": "Recipe",
+              "url": "https://media.forgecdn.net/attachments/286/958/java_frxpsyc5fd.png",
+              "modId": 376351
+            },
+            {
+              "id": 286951,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/286/951/310/172/java_caauz2pnog.png",
+              "title": "3x3 Wool-Framed Preview",
+              "url": "https://media.forgecdn.net/attachments/286/951/java_caauz2pnog.png",
+              "modId": 376351
+            },
+            {
+              "id": 286954,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/286/954/310/172/java_5i34rt2xad.png",
+              "title": "Framing in Progress",
+              "url": "https://media.forgecdn.net/attachments/286/954/java_5i34rt2xad.png",
+              "modId": 376351
+            }
+          ],
+          "mainFileId": 3859133
+        },
+        "curseForgeFile": {
+          "id": 3808242,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "framedcompactdrawers-1.18-4.1.0.jar",
+          "fileName": "framedcompactdrawers-1.18-4.1.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-05-28T17:21:15.677Z",
+          "fileLength": 124741,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 223852,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 327418926,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4247132151,
+              "name": "eutros"
+            },
+            {
+              "fingerprint": 1881664966,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 3334458725,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1762540746,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3412890546,
+              "name": "mcmod.info"
+            },
+            {
+              "fingerprint": 1497900316,
+              "name": "assets"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "ad4535f25bf512ef42e2b0f306b5d9e3f08c69ca",
+              "algo": 1
+            },
+            {
+              "value": "3c856c3c4597f51b7b4c5a74fd4aeaf3",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 934053702,
+          "modId": 376351
+        }
+      },
+      {
+        "name": "Engineer's Decor",
+        "version": "engineersdecor-1.18.2-1.1.23.jar",
+        "optional": true,
+        "file": "engineersdecor-1.18.2-1.1.23.jar",
+        "type": "mods",
+        "description": "Adds cosmetic blocks for the engineer's factory, workshop, and home.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 313866,
+        "curseForgeFileId": 3837935,
+        "curseForgeProject": {
+          "id": 313866,
+          "name": "Engineer's Decor",
+          "authors": [
+            {
+              "id": 215639,
+              "name": "wilechaote",
+              "url": "https://www.curseforge.com/members/51451694-wilechaote?username=wilechaote"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds cosmetic blocks for the engineer's factory, workshop, and home.",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Technology",
+              "slug": "technology",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology",
+              "dateModified": "2014-05-08T17:37:54.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 412,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/27/635351494745973439.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Energy, Fluid, and Item Transport",
+              "slug": "technology-item-fluid-energy-transport",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-item-fluid-energy-transport",
+              "dateModified": "2014-05-08T17:39:07.873Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 415,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/30/635351495478719291.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            },
+            {
+              "name": "Processing",
+              "slug": "technology-processing",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-processing",
+              "dateModified": "2014-05-08T17:38:41.96Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 413,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/28/635351495219610266.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "engineers-decor",
+          "isFeatured": false,
+          "dateModified": "2022-06-19T09:13:01.927Z",
+          "dateCreated": "2019-02-10T17:14:42.093Z",
+          "dateReleased": "2022-06-19T09:08:46.207Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/engineers-decor",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/stfwi/engineers-decor/issues",
+            "sourceUrl": "https://github.com/stfwi/engineers-decor"
+          },
+          "logo": {
+            "id": 194280,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/194/280/256/256/636872269749876871.png",
+            "title": "636872269749876871.png",
+            "url": "https://media.forgecdn.net/avatars/194/280/636872269749876871.png",
+            "modId": 313866
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 267823,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/267/823/310/172/engineers-decor-factory-block-placer.png",
+              "title": "Block Placer",
+              "url": "https://media.forgecdn.net/attachments/267/823/engineers-decor-factory-block-placer.png",
+              "modId": 313866
+            },
+            {
+              "id": 250215,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/250/215/310/172/engineers-decor-v103-labfurnace-electrical-speedup.png",
+              "title": "Electrical lab furnace speed-up with an IE external heater placed in aux slot.",
+              "url": "https://media.forgecdn.net/attachments/250/215/engineers-decor-v103-labfurnace-electrical-speedup.png",
+              "modId": 313866
+            },
+            {
+              "id": 252263,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/252/263/310/172/engineers-decor-v105a-e-furnace.png",
+              "title": "Electrical pass-through furnace",
+              "url": "https://media.forgecdn.net/attachments/252/263/engineers-decor-v105a-e-furnace.png",
+              "modId": 313866
+            },
+            {
+              "id": 313225,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/313/225/310/172/2020-09-17-wall-window-connection.png",
+              "title": "1.16.3: Wall-to-window-connection.",
+              "url": "https://media.forgecdn.net/attachments/313/225/2020-09-17-wall-window-connection.png",
+              "modId": 313866
+            },
+            {
+              "id": 317540,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/317/540/310/172/engineers-decor-v113-brief.png",
+              "title": "Mod summary v1.1.3",
+              "url": "https://media.forgecdn.net/attachments/317/540/engineers-decor-v113-brief.png",
+              "modId": 313866
+            },
+            {
+              "id": 317543,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/317/543/310/172/engineers-decor-v113-efurnace.png",
+              "title": "Electrical Furnace v1.1.3",
+              "url": "https://media.forgecdn.net/attachments/317/543/engineers-decor-v113-efurnace.png",
+              "modId": 313866
+            },
+            {
+              "id": 250348,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/250/348/310/172/engineers-decor-v103-treatedwood-pole.png",
+              "title": "Pole supports",
+              "url": "https://media.forgecdn.net/attachments/250/348/engineers-decor-v103-treatedwood-pole.png",
+              "modId": 313866
+            },
+            {
+              "id": 249730,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/249/730/310/172/engineers-decor-v103-stool-sitting.png",
+              "title": "Cinema: The crew sitting on treated wood stools.",
+              "url": "https://media.forgecdn.net/attachments/249/730/engineers-decor-v103-stool-sitting.png",
+              "modId": 313866
+            },
+            {
+              "id": 262258,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/262/258/310/172/small-tree-cutter.png",
+              "title": "Small Tree Cutter",
+              "url": "https://media.forgecdn.net/attachments/262/258/small-tree-cutter.png",
+              "modId": 313866
+            },
+            {
+              "id": 250347,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/250/347/310/172/engineers-decor-v103-windows.png",
+              "title": "Windows",
+              "url": "https://media.forgecdn.net/attachments/250/347/engineers-decor-v103-windows.png",
+              "modId": 313866
+            },
+            {
+              "id": 252769,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/252/769/310/172/engineers-decor-v106a-factorydropper.png",
+              "title": "Factory dropper",
+              "url": "https://media.forgecdn.net/attachments/252/769/engineers-decor-v106a-factorydropper.png",
+              "modId": 313866
+            },
+            {
+              "id": 343630,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/343/630/310/172/root-wire-conduit.png",
+              "title": "Roof Wire Conduit",
+              "url": "https://media.forgecdn.net/attachments/343/630/root-wire-conduit.png",
+              "modId": 313866
+            },
+            {
+              "id": 252443,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/252/443/310/172/engineers-decor-v106a-wasteincinerator-gui.png",
+              "title": "Small waste incinerator GUI",
+              "url": "https://media.forgecdn.net/attachments/252/443/engineers-decor-v106a-wasteincinerator-gui.png",
+              "modId": 313866
+            },
+            {
+              "id": 280042,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/280/42/310/172/2020-02-27-treecutter-energy.png",
+              "title": "(Tree Cutter Cable Test)",
+              "url": "https://media.forgecdn.net/attachments/280/42/2020-02-27-treecutter-energy.png",
+              "modId": 313866
+            },
+            {
+              "id": 251390,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/251/390/310/172/engineers-decor-v104a-double_t_supports.png",
+              "title": "Steel supports",
+              "url": "https://media.forgecdn.net/attachments/251/390/engineers-decor-v104a-double_t_supports.png",
+              "modId": 313866
+            },
+            {
+              "id": 247910,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/247/910/310/172/engineers-decor-v101a-summary.png",
+              "title": "Crafting table, clinker wall, stool.",
+              "url": "https://media.forgecdn.net/attachments/247/910/engineers-decor-v101a-summary.png",
+              "modId": 313866
+            },
+            {
+              "id": 252442,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/252/442/310/172/engineers-decor-v106a-wasteincinerator.png",
+              "title": "Small waste incinerator",
+              "url": "https://media.forgecdn.net/attachments/252/442/engineers-decor-v106a-wasteincinerator.png",
+              "modId": 313866
+            },
+            {
+              "id": 254197,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/197/310/172/factory-dropper-gui.png",
+              "title": "Factory dropper GUI",
+              "url": "https://media.forgecdn.net/attachments/254/197/factory-dropper-gui.png",
+              "modId": 313866
+            },
+            {
+              "id": 276523,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/276/523/310/172/milker-mc1.png",
+              "title": "Small Milking Machine",
+              "url": "https://media.forgecdn.net/attachments/276/523/milker-mc1.png",
+              "modId": 313866
+            },
+            {
+              "id": 317542,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/317/542/310/172/engineers-decor-v113-metal-crafting-table.png",
+              "title": "Metal Crafting Table v1.1.3",
+              "url": "https://media.forgecdn.net/attachments/317/542/engineers-decor-v113-metal-crafting-table.png",
+              "modId": 313866
+            },
+            {
+              "id": 262256,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/262/256/310/172/small-mineral-smelter-vanilla-automated.png",
+              "title": "Small Mineral Smelter",
+              "url": "https://media.forgecdn.net/attachments/262/256/small-mineral-smelter-vanilla-automated.png",
+              "modId": 313866
+            },
+            {
+              "id": 317541,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/317/541/310/172/engineers-decor-v113-signs.png",
+              "title": "Signs v1.1.3",
+              "url": "https://media.forgecdn.net/attachments/317/541/engineers-decor-v113-signs.png",
+              "modId": 313866
+            },
+            {
+              "id": 249573,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/249/573/310/172/engineers-decor-v103-summary.png",
+              "title": "Summary v1.0.3",
+              "url": "https://media.forgecdn.net/attachments/249/573/engineers-decor-v103-summary.png",
+              "modId": 313866
+            },
+            {
+              "id": 252265,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/252/265/310/172/engineers-decor-v105a-e-furnace-gui.png",
+              "title": "Electrical furnace GUI",
+              "url": "https://media.forgecdn.net/attachments/252/265/engineers-decor-v105a-e-furnace-gui.png",
+              "modId": 313866
+            },
+            {
+              "id": 267824,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/267/824/310/172/engineers-decor-small-block-breaker.png",
+              "title": "Block Breaker",
+              "url": "https://media.forgecdn.net/attachments/267/824/engineers-decor-small-block-breaker.png",
+              "modId": 313866
+            },
+            {
+              "id": 249574,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/249/574/310/172/engineers-decor-v103-labfurnacegui.png",
+              "title": "Lab furnace GUI",
+              "url": "https://media.forgecdn.net/attachments/249/574/engineers-decor-v103-labfurnacegui.png",
+              "modId": 313866
+            },
+            {
+              "id": 370893,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/370/893/310/172/2021-06-10-lab-furnace-external-heater.png",
+              "title": "Small Lab Furnace - IE External Heater usage",
+              "url": "https://media.forgecdn.net/attachments/370/893/2021-06-10-lab-furnace-external-heater.png",
+              "modId": 313866
+            },
+            {
+              "id": 322861,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/322/861/310/172/engineers-decor-steel-railings-and-catwalks.png",
+              "title": "Steel Railings and Catwalks",
+              "url": "https://media.forgecdn.net/attachments/322/861/engineers-decor-steel-railings-and-catwalks.png",
+              "modId": 313866
+            },
+            {
+              "id": 251046,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/251/46/310/172/engineers-decor-v104a-steelpoles.png",
+              "title": "Steel pole supports",
+              "url": "https://media.forgecdn.net/attachments/251/46/engineers-decor-v104a-steelpoles.png",
+              "modId": 313866
+            },
+            {
+              "id": 246915,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/246/915/310/172/engineersdecor-concrete-stuff.png",
+              "title": "Concrete stuff",
+              "url": "https://media.forgecdn.net/attachments/246/915/engineersdecor-concrete-stuff.png",
+              "modId": 313866
+            },
+            {
+              "id": 254198,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/198/310/172/factory-dropper-metal-press-compression.png",
+              "title": "Factory dropper / metal press item compression",
+              "url": "https://media.forgecdn.net/attachments/254/198/factory-dropper-metal-press-compression.png",
+              "modId": 313866
+            },
+            {
+              "id": 254199,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/199/310/172/factory-dropper-directional.png",
+              "title": "Factory dropper directional drop",
+              "url": "https://media.forgecdn.net/attachments/254/199/factory-dropper-directional.png",
+              "modId": 313866
+            },
+            {
+              "id": 262257,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/262/257/310/172/small-solar-panel.png",
+              "title": "Small Solar Panel",
+              "url": "https://media.forgecdn.net/attachments/262/257/small-solar-panel.png",
+              "modId": 313866
+            },
+            {
+              "id": 264581,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/264/581/310/172/engineers-decor-mesh-fence.png",
+              "title": "Steel Mesh Fence",
+              "url": "https://media.forgecdn.net/attachments/264/581/engineers-decor-mesh-fence.png",
+              "modId": 313866
+            },
+            {
+              "id": 248202,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/248/202/310/172/panzerglass.png",
+              "title": "Panzer glass",
+              "url": "https://media.forgecdn.net/attachments/248/202/panzerglass.png",
+              "modId": 313866
+            },
+            {
+              "id": 262878,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/262/878/310/172/engineers-decor-crafting-table-items.png",
+              "title": "Crafting table item rendering",
+              "url": "https://media.forgecdn.net/attachments/262/878/engineers-decor-crafting-table-items.png",
+              "modId": 313866
+            },
+            {
+              "id": 250719,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/250/719/310/172/engineers-decor-v104a-craftinggui.png",
+              "title": "Crafting table GUI",
+              "url": "https://media.forgecdn.net/attachments/250/719/engineers-decor-v104a-craftinggui.png",
+              "modId": 313866
+            },
+            {
+              "id": 267825,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/267/825/310/172/engineers-decor-small-fluid-collection-funnel.png",
+              "title": "Small fluid collection funnel",
+              "url": "https://media.forgecdn.net/attachments/267/825/engineers-decor-small-fluid-collection-funnel.png",
+              "modId": 313866
+            },
+            {
+              "id": 251492,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/251/492/310/172/engineers-decor-v104a-redstone-valves.png",
+              "title": "Fluid valves",
+              "url": "https://media.forgecdn.net/attachments/251/492/engineers-decor-v104a-redstone-valves.png",
+              "modId": 313866
+            }
+          ],
+          "mainFileId": 3837935
+        },
+        "curseForgeFile": {
+          "id": 3837935,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "engineersdecor-1.18.2-1.1.23.jar",
+          "fileName": "engineersdecor-1.18.2-1.1.23.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-06-18T21:57:57.56Z",
+          "fileLength": 1788279,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 306770,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 231951,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 968523341,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 487913714,
+              "name": ".gitversion-engineersdecor"
+            },
+            {
+              "fingerprint": 4054892836,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1081870138,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2121622161,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 2644422633,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2808760807,
+              "name": "wile"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "e0bd20879f2dc35ed73af01c47b91847d617a11b",
+              "algo": 1
+            },
+            {
+              "value": "99e66446c279aee1ba59726adf2ee9a6",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 3440643559,
+          "modId": 313866
+        }
+      },
+      {
+        "name": "Create Deco",
+        "version": "createdeco-1.2.8-1.18.2.jar",
+        "optional": true,
+        "file": "createdeco-1.2.8-1.18.2.jar",
+        "type": "mods",
+        "description": "A decoration expansion to the Create mod",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 509285,
+        "curseForgeFileId": 3866123,
+        "curseForgeProject": {
+          "id": 509285,
+          "name": "Create Deco",
+          "authors": [
+            {
+              "id": 426290,
+              "name": "talrey",
+              "url": "https://www.curseforge.com/members/102539287-talrey?username=talrey"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A decoration expansion to the Create mod",
+          "categories": [
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 426,
+          "classId": 6,
+          "slug": "create-deco",
+          "isFeatured": false,
+          "dateModified": "2022-07-09T21:36:44.45Z",
+          "dateCreated": "2021-07-29T05:45:02.607Z",
+          "dateReleased": "2022-07-09T21:26:40.653Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/create-deco",
+            "wikiUrl": "",
+            "sourceUrl": "https://github.com/talrey/CreateDeco"
+          },
+          "logo": {
+            "id": 412231,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/412/231/256/256/637631343026186429.png",
+            "title": "637631343026186429.png",
+            "url": "https://media.forgecdn.net/avatars/412/231/637631343026186429.png",
+            "modId": 509285
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 418025,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/25/310/172/copper.png",
+              "title": "Copper",
+              "url": "https://media.forgecdn.net/attachments/418/25/copper.png",
+              "modId": 509285
+            },
+            {
+              "id": 418030,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/30/310/172/brass.png",
+              "title": "Brass",
+              "url": "https://media.forgecdn.net/attachments/418/30/brass.png",
+              "modId": 509285
+            },
+            {
+              "id": 418027,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/27/310/172/iron.png",
+              "title": "Iron",
+              "url": "https://media.forgecdn.net/attachments/418/27/iron.png",
+              "modId": 509285
+            },
+            {
+              "id": 418029,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/29/310/172/gold.png",
+              "title": "Gold",
+              "url": "https://media.forgecdn.net/attachments/418/29/gold.png",
+              "modId": 509285
+            },
+            {
+              "id": 383847,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/383/847/310/172/drawn-create-deco-logo.png",
+              "title": "Create Deco's Logo",
+              "url": "https://media.forgecdn.net/attachments/383/847/drawn-create-deco-logo.png",
+              "modId": 509285
+            },
+            {
+              "id": 418031,
+              "description": "(good luck getting these)",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/31/310/172/netherite.png",
+              "title": "Netherite",
+              "url": "https://media.forgecdn.net/attachments/418/31/netherite.png",
+              "modId": 509285
+            },
+            {
+              "id": 418026,
+              "description": "(it's a metal now)",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/26/310/172/andesite.png",
+              "title": "Andesite",
+              "url": "https://media.forgecdn.net/attachments/418/26/andesite.png",
+              "modId": 509285
+            },
+            {
+              "id": 418028,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/28/310/172/zinc.png",
+              "title": "Zinc",
+              "url": "https://media.forgecdn.net/attachments/418/28/zinc.png",
+              "modId": 509285
+            },
+            {
+              "id": 418032,
+              "description": "(Many more variants)",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/418/32/310/172/bricks.png",
+              "title": "All of the clean brick types",
+              "url": "https://media.forgecdn.net/attachments/418/32/bricks.png",
+              "modId": 509285
+            }
+          ],
+          "mainFileId": 3866123
+        },
+        "curseForgeFile": {
+          "id": 3866123,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "createdeco-1.2.8-1.18.2.jar",
+          "fileName": "createdeco-1.2.8-1.18.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2022-07-09T21:26:40.653Z",
+          "fileLength": 2715456,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 328085,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1946774604,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1501004943,
+              "name": "com"
+            },
+            {
+              "fingerprint": 653456731,
+              "name": "mod"
+            },
+            {
+              "fingerprint": 3835298504,
+              "name": "createdeco_ico.png"
+            },
+            {
+              "fingerprint": 1438559181,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 1543616780,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 4114401301,
+              "name": "createdeco.mixins.json"
+            },
+            {
+              "fingerprint": 646099721,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2545098572,
+              "name": ".cache"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "75bdc0a45837d7726fddb9de5a3de6f92cd3e072",
+              "algo": 1
+            },
+            {
+              "value": "0e8fb48890017857f2dea60a99369867",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000018.0000000002",
+              "gameVersion": "1.18.2",
+              "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+              "gameVersionName": "1.18.2"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.18.2",
+            "Forge"
+          ],
+          "fileFingerprint": 1536234270,
+          "modId": 509285
+        }
       }
     ],
     "ignoredUpdates": [],
     "vanillaInstance": false,
-    "lastPlayed": 1657439547525,
-    "numPlays": 38,
+    "lastPlayed": 1657442209164,
+    "numPlays": 40,
     "lastExportName": "Mekreate Engitania",
     "lastExportVersion": "2.3",
     "lastExportAuthor": "Waoweens",
