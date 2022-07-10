@@ -31,7 +31,7 @@ onEvent('recipes', (e) => {
 	e.recipes.mekanismMetallurgicInfusing(
 		'plane:diamond_reinforced_iron',
 		'2x minecraft:iron_ingot',
-		'mekanism:diamond',
+		'44x mekanism:diamond',
 		440
 	);
 	e.recipes.mekanismMetallurgicInfusing(
@@ -100,15 +100,17 @@ onEvent('recipes', (e) => {
 		])
 		.heated();
 
-	e.recipes.createMixing('create:rose_quartz', [
-		'minecraft:quartz',
-		Fluid.of('thermal:redstone', 800),
-	]);
+	e.recipes
+		.createMixing('create:rose_quartz', [
+			'minecraft:quartz',
+			Fluid.of('thermal:redstone', 800)
+		])
+		.heated();
 
 	e.recipes.createMixing('thermal:signalum_dust', [
 		'3x thermal:copper_dust',
 		'thermal:tin_dust',
-		Fluid.of('thermal:redstone', 400),
+		Fluid.of('thermal:redstone', 400)
 	]);
 
 	// Thermal recipes
