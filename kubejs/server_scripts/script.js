@@ -109,7 +109,7 @@ onEvent('recipes', (e) => {
 
 	e.recipes.createMixing('thermal:signalum_dust', [
 		'3x thermal:copper_dust',
-		'thermal:tin_dust',
+		'thermal:silver_dust',
 		Fluid.of('thermal:redstone', 400)
 	]);
 
@@ -118,6 +118,67 @@ onEvent('recipes', (e) => {
 		'minecraft:copper_ingot',
 		'create:zinc_ingot',
 	]);
+
+	// removed recipes here
+	event.remove({output: 'mekanism:tin_ingot'});
+	event.remove({output: 'mekanism:lead_ingot'});
+	event.remove({output: 'immersiveengineering:nickel_ingot'})
+	
 });
 
+// jei hidden items
+onEvent('jei.hide.items', event => {
+	// Immersive Engineering
+	
+	event.hide('immersiveengineering:silver_ingot');
+    event.hide('immersiveengineering:lead_ingot');
+	event.hide('immersiveengineering:electrum_ingot');
+	event.hide('immersiveengineering:constantan_ingot');
+	event.hide('immersiveengineering:uranium_ingot');
+	event.hide('immersiveengineering:raw_silver');
+	event.hide('immersiveengineering:raw_nickel');
+	event.hide('immersiveengineering:raw_uranium');
+	event.hide('immersiveengineering:raw_lead');
+	event.hide('immersiveengineering:raw_block_lead');
+	event.hide('immersiveengineering:raw_block_silver');
+	event.hide('immersiveengineering:raw_block_nickel');
+	event.hide('immersiveengineering:raw_block_uranium');
+    event.hide('immersiveengineering:dust_copper');
+	event.hide('immersiveengineering:dust_iron');
+	
+
+	//Mekanism
+	
+	event.hide('mekanism:tin_ingot');
+	event.hide('mekanism:lead_ingot');
+	event.hide('mekanism:bronze_ingot')
+	event.hide('mekanism:raw_tin');
+	event.hide('mekanism raw_lead');
+	event.hide('mekanism:block_raw_tin');
+	event.hide('mekanism:block_raw_lead');
+	event.hide('mekanism:sawdust');
+	event.hide('mekanism:dust_bronze');
+	event.hide('mekanism:dust_lapis_lazuli');
+	event.hide('mekanism:dust_coal');
+	event.hide('mekanism:dust_quartz');
+	event.hide('mekanism:dust_diamond');
+	event.hide('mekanism:dust_emerald');
+	event.hide('mekanism:dust_netherite');
+	event.hide('mekanism:dust_sulfur');
+	event.hide('mekanism:dust_iron');
+	event.hide('mekanism:dust_gold');
+	event.hide('mekanism:dust_copper');
+	event.hide('mekanism:dust_tin');
+	event.hide('mekanism:dust_lead');
+	event.hide('mekanism:dust_uranium');
+    event.hide('lazierae2:coal_dust');
+})
+
+// jei hidden fluids
+onEvent('jei.hide.fluids', event => {
+	event.hide('example:fluid')
+})
+
 onEvent('item.tags', (e) => {});
+
+// its mket time
