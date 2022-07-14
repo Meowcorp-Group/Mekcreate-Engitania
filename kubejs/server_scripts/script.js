@@ -52,7 +52,7 @@ onEvent('recipes', (e) => {
     e.recipes.mekanismSawing(
 		'#minecraft:planks',
 		'minecraft:stick',
-		'#forge:dust/wood'
+		'#forge:dusts/wood'
 	);
 
 	// Mekanism Reaction Chamber Recipe
