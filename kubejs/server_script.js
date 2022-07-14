@@ -79,7 +79,7 @@ onEvent('recipes', (e) => {
 	e.recipes
 		.createMixing('4x thermal:signalum_ingot', [
 			'3x minecraft:copper_ingot',
-			'thermal:tin_ingot',
+			'thermal:silver_ingot',
 			'4x minecraft:redstone',
 		])
 		.heated();
