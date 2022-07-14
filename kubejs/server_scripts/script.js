@@ -53,7 +53,37 @@ onEvent('recipes', (e) => {
 		'#minecraft:planks',
 		'minecraft:stick',
 		'#forge:dust/wood'
-	)
+	);
+
+	// Mekanism Reaction Chamber Recipe
+
+    e.recipes.custom({
+		type: 'mekanism:reaction',
+		ItemInput: {
+			ingredient: {
+				tag: 'minecraft:coals',
+			},
+		},
+		fluidInput: {
+			amount: 100,
+			tag: 'minercraft:water',
+		},
+
+		gasInput: {
+			amount: 100,
+			gas: 'mekanism:oxygen',
+		},
+
+		duration: 100,
+		itemOutput: {
+			item: 'thermal:sulfur',
+        },
+		
+		gasOutput: {
+			amount: '100',
+            gas: 'mekanism:hydrogen'
+		}
+	});
 
 	// Create mixing recipes
 	e.recipes
