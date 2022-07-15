@@ -25,5 +25,6 @@ options.txt
 realms_persistence.json
 reauth.toml
 servers.dat
+servers.dat_old
 usercache.json
 usernamecache.json
