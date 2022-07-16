@@ -98,8 +98,14 @@ onEvent('recipes', (e) => {
 	);
 
 	e.recipes.mekanismSawing(
-		'#minecraft:_stems',
+		'#minecraft:warped_stems',
 		'6x minecraft:_planks',
+		Item.of('thermal:sawdust').chance(0.25)
+	);
+	
+	e.recipes.mekanismSawing(
+		'#minecraft:crimson_stems',
+		'6x minecraft:crimson_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
