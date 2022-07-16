@@ -270,6 +270,26 @@ onEvent('recipes', (event) => {
 		'minecraft:iron_ingot',
 	]);
 
+	event.recipes.createPressing('thermal:gold_plate', [
+        'minecraft:gold_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:copper_plate', [
+        'minecraft:copper_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:lead_plate', [
+        'minecraft:lead_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:nickel_plate', [
+        'minecraft:nickel_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:silver_plate', [
+        'minecraft:silver_ingot'
+	]);
+
 	// Thermal Induction Smelter recipes
 
 	event.recipes.thermalSmelter('2x create:brass_ingot', [
@@ -282,77 +302,84 @@ onEvent('recipes', (event) => {
 	// Immersive Engineering
 
 	//input
-	event.remove({ input: 'immersiveengineering:ingot_constantan' });
-	event.remove({ input: 'immersiveengineering:ingot_electrum' });
-	event.remove({ input: 'immersiveengineering:ingot_nickel' });
-	event.remove({ input: 'immersiveengineering:ingot_silver' });
-	event.remove({ input: 'immersiveengineering:ingot_lead' });
-	event.remove({ input: 'immersiveengineering:ingot_uranium' });
-	event.remove({ input: 'immersiveengineering:nugget_constantan' });
-	event.remove({ input: 'immersiveengineering:nugget_electrum' });
-	event.remove({ input: 'immersiveengineering:nugget_nickel' });
-	event.remove({ input: 'immersiveengineering:nugget_silver' });
-	event.remove({ input: 'immersiveengineering:nugget_lead' });
-	event.remove({ input: 'immersiveengineering:nugget_uranium' });
-	event.remove({ input: 'immersiveengineering:plate_lead' });
-	event.remove({ input: 'immersiveengineering:plate_silver' });
-	event.remove({ input: 'immersiveengineering:plate_uranium}' });
-	event.remove({ input: 'immersiveengineering:plate_nickel' });
-	event.remove({ input: 'immersiveengineering:plate_constantan' });
-	event.remove({ input: 'immersiveengineering:plate_electrum' });
-	event.remove({ input: 'immersiveengineering:plate_steel' });
-	event.remove({ input: 'immersiveengineering:plate_gold' });
-	event.remove({ input: 'immersiveengineering:plate_iron' });
-	event.remove({ input: 'immersiveengineering:raw_nickel' });
-	event.remove({ input: 'immersiveengineering:raw_silver' });
-	event.remove({ input: 'immersiveengineering:raw_lead' });
-	event.remove({ input: 'immersiveengineering:raw_uranium' });
-	event.remove({ input: 'immersiveengineering:raw_block_nickel' });
-	event.remove({ input: 'immersiveengineering:raw_block_silver' });
-	event.remove({ input: 'immersiveengineering:raw_block_lead' });
-	event.remove({ input: 'immersiveengineering:raw_block_uranium' });
-	event.remove({ input: 'immersiveengineering:dust_iron' });
-	event.remove({ input: 'immersiveengineering:dust_copper' });
-	event.remove({ input: 'immersiveengineering:dust_gold' });
-	event.remove({ input: 'immersiveengineering:dust_uranium' });
-	event.remove({ input: 'immersiveengineering:dust_nickel' });
-	event.remove({ input: 'immersiveengineering:dust_lead' });
-	event.remove({ input: 'immersiveengineering:dust_silver' });
-	event.remove({ input: 'immersiveengineering:dust_constantan' });
-	event.remove({ input: 'immersiveengineering:dust_electrum' });
-	event.remove({ input: 'immersiveengineering:dust_steel' });
-	event.remove({ input: 'immersiveengineering:dust_wood' });
-	event.remove({ input: 'immersiveengineering:dust_sulfur' });
-	event.remove({ input: 'immersiveengineering:dust_saltpeter' });
-
+	event.remove({input: 'immersiveengineering:ingot_constantan'});
+	event.remove({input: 'immersiveengineering:ingot_electrum'});
+	event.remove({input: 'immersiveengineering:ingot_nickel'});
+	event.remove({input: 'immersiveengineering:ingot_silver'});
+	event.remove({input: 'immersiveengineering:ingot_lead'});
+	event.remove({input: 'immersiveengineering:ingot_uranium'});
+	event.remove({input: 'immersiveengineering:nugget_constantan'})
+	event.remove({input: 'immersiveengineering:nugget_electrum'})
+	event.remove({input: 'immersiveengineering:nugget_nickel'})
+	event.remove({input: 'immersiveengineering:nugget_silver'})
+	event.remove({input: 'immersiveengineering:nugget_lead'})
+	event.remove({input: 'immersiveengineering:nugget_uranium'})
+	event.remove({input: 'immersiveengineering:plate_lead'})
+    event.remove({input: 'immersiveengineering:plate_silver'})
+    event.remove({input: 'immersiveengineering:plate_nickel'})	
+    event.remove({input: 'immersiveengineering:plate_constantan'})
+    event.remove({input: 'immersiveengineering:plate_electrum'})
+    event.remove({input: 'immersiveengineering:plate_steel'})
+    event.remove({input: 'immersiveengineering:plate_gold'})
+    event.remove({input: 'immersiveengineering:plate_iron'})
+	event.remove({input: 'immersiveengineering:raw_nickel'})
+	event.remove({input: 'immersiveengineering:raw_silver'});
+	event.remove({input: 'immersiveengineering:raw_lead'});
+	event.remove({input: 'immersiveengineering:raw_uranium'});
+	event.remove({input: 'immersiveengineering:raw_block_nickel'});
+	event.remove({input: 'immersiveengineering:raw_block_silver'});
+	event.remove({input: 'immersiveengineering:raw_block_lead'});
+	event.remove({input: 'immersiveengineering:raw_block_uranium'});
+	event.remove({input: 'immersiveengineering:dust_iron'});
+	event.remove({input: 'immersiveengineering:dust_copper'});
+	event.remove({input: 'immersiveengineering:dust_gold'});
+	event.remove({input: 'immersiveengineering:dust_uranium'});
+	event.remove({input: 'immersiveengineering:dust_nickel'});
+	event.remove({input: 'immersiveengineering:dust_lead'});
+	event.remove({input: 'immersiveengineering:dust_silver'});
+	event.remove({input: 'immersiveengineering:dust_constantan'});
+	event.remove({input: 'immersiveengineering:dust_electrum'});
+	event.remove({input: 'immersiveengineering:dust_steel'});
+	event.remove({input: 'immersiveengineering:dust_wood'});
+	event.remove({input: 'immersiveengineering:dust_sulfur'});
+	event.remove({input: 'immersiveengineering:dust_saltpeter'});
+    
 	//output
-	event.remove({ output: 'immersiveengineering:ingot_constantan' });
-	event.remove({ output: 'immersiveengineering:ingot_electrum' });
-	event.remove({ output: 'immersiveengineering:ingot_nickel' });
-	event.remove({ output: 'immersiveengineering:ingot_silver' });
-	event.remove({ output: 'immersiveengineering:ingot_lead' });
-	event.remove({ output: 'immersiveengineering:ingot_uranium' });
-	event.remove({ output: 'immersiveengineering:raw_nickel' });
-	event.remove({ output: 'immersiveengineering:raw_silver' });
-	event.remove({ output: 'immersiveengineering:raw_lead' });
-	event.remove({ output: 'immersiveengineering:raw_uranium' });
-	event.remove({ output: 'immersiveengineering:raw_block_nickel' });
-	event.remove({ output: 'immersiveengineering:raw_block_silver' });
-	event.remove({ output: 'immersiveengineering:raw_block_lead' });
-	event.remove({ output: 'immersiveengineering:raw_block_uranium' });
-	event.remove({ output: 'immersiveengineering:dust_iron' });
-	event.remove({ output: 'immersiveengineering:dust_copper' });
-	event.remove({ output: 'immersiveengineering:dust_gold' });
-	event.remove({ output: 'immersiveengineering:dust_uranium' });
-	event.remove({ output: 'immersiveengineering:dust_nickel' });
-	event.remove({ output: 'immersiveengineering:dust_lead' });
-	event.remove({ output: 'immersiveengineering:dust_silver' });
-	event.remove({ output: 'immersiveengineering:dust_constantan' });
-	event.remove({ output: 'immersiveengineering:dust_electrum' });
-	event.remove({ output: 'immersiveengineering:dust_steel' });
-	event.remove({ output: 'immersiveengineering:dust_wood' });
-	event.remove({ output: 'immersiveengineering:dust_sulfur' });
-	event.remove({ output: 'immersiveengineering:dust_saltpeter' });
+	event.remove({output: 'immersiveengineering:ingot_constantan'});
+	event.remove({output: 'immersiveengineering:ingot_electrum'});
+	event.remove({output: 'immersiveengineering:ingot_nickel'});
+	event.remove({output: 'immersiveengineering:ingot_silver'});
+	event.remove({output: 'immersiveengineering:ingot_lead'});
+	event.remove({output: 'immersiveengineering:ingot_uranium'});
+	event.remove({output: 'immersiveengineering:plate_lead'})
+    event.remove({output: 'immersiveengineering:plate_silver'})
+    event.remove({output: 'immersiveengineering:plate_nickel'})	
+    event.remove({output: 'immersiveengineering:plate_constantan'})
+    event.remove({output: 'immersiveengineering:plate_electrum'})
+    event.remove({output: 'immersiveengineering:plate_steel'})
+    event.remove({output: 'immersiveengineering:plate_gold'})
+    event.remove({output: 'immersiveengineering:plate_iron'})
+	event.remove({output: 'immersiveengineering:raw_nickel'})
+	event.remove({output: 'immersiveengineering:raw_silver'});
+	event.remove({output: 'immersiveengineering:raw_lead'});
+	event.remove({output: 'immersiveengineering:raw_uranium'});
+	event.remove({output: 'immersiveengineering:raw_block_nickel'});
+	event.remove({output: 'immersiveengineering:raw_block_silver'});
+	event.remove({output: 'immersiveengineering:raw_block_lead'});
+	event.remove({output: 'immersiveengineering:raw_block_uranium'});
+	event.remove({output: 'immersiveengineering:dust_iron'});
+	event.remove({output: 'immersiveengineering:dust_copper'});
+	event.remove({output: 'immersiveengineering:dust_gold'});
+	event.remove({output: 'immersiveengineering:dust_uranium'});
+	event.remove({output: 'immersiveengineering:dust_nickel'});
+	event.remove({output: 'immersiveengineering:dust_lead'});
+	event.remove({output: 'immersiveengineering:dust_silver'});
+	event.remove({output: 'immersiveengineering:dust_constantan'});
+	event.remove({output: 'immersiveengineering:dust_electrum'});
+	event.remove({output: 'immersiveengineering:dust_steel'});
+	event.remove({output: 'immersiveengineering:dust_wood'});
+	event.remove({output: 'immersiveengineering:dust_sulfur'});
+	event.remove({output: 'immersiveengineering:dust_saltpeter'});
 
 	// Mekanism
 
