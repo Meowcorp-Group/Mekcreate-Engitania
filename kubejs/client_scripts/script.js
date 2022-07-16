@@ -22,7 +22,6 @@ onEvent('jei.hide.items', event => {
     event.hide('immersiveengineering:plate_copper')
     event.hide('immersiveengineering:plate_lead')
     event.hide('immersiveengineering:plate_silver')
-    event.hide('immersiveengineering:plate_uranium')
     event.hide('immersiveengineering:plate_nickel')	
     event.hide('immersiveengineering:plate_constantan')
     event.hide('immersiveengineering:plate_electrum')

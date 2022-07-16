@@ -270,6 +270,30 @@ onEvent('recipes', (event) => {
         'minecraft:iron_ingot'
 	]);
 
+	event.recipes.createPressing('thermal:gold_plate', [
+        'minecraft:gold_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:copper_plate', [
+        'minecraft:copper_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:lead_plate', [
+        'minecraft:lead_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:nickel_plate', [
+        'minecraft:nickel_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:silver_plate', [
+        'minecraft:silver_ingot'
+	]);
+
+	event.recipes.createPressing('thermal:_plate', [
+        'minecraft:_ingot'
+	]);
+
 	// Thermal Induction Smelter recipes
 
 	event.recipes.thermalSmelter('2x create:brass_ingot', [
@@ -298,7 +322,6 @@ onEvent('recipes', (event) => {
 	event.remove({input: 'immersiveengineering:nugget_uranium'})
 	event.remove({input: 'immersiveengineering:plate_lead'})
     event.remove({input: 'immersiveengineering:plate_silver'})
-    event.remove({input: 'immersiveengineering:plate_uranium}'})
     event.remove({input: 'immersiveengineering:plate_nickel'})	
     event.remove({input: 'immersiveengineering:plate_constantan'})
     event.remove({input: 'immersiveengineering:plate_electrum'})
@@ -334,6 +357,14 @@ onEvent('recipes', (event) => {
 	event.remove({output: 'immersiveengineering:ingot_silver'});
 	event.remove({output: 'immersiveengineering:ingot_lead'});
 	event.remove({output: 'immersiveengineering:ingot_uranium'});
+	event.remove({output: 'immersiveengineering:plate_lead'})
+    event.remove({output: 'immersiveengineering:plate_silver'})
+    event.remove({output: 'immersiveengineering:plate_nickel'})	
+    event.remove({output: 'immersiveengineering:plate_constantan'})
+    event.remove({output: 'immersiveengineering:plate_electrum'})
+    event.remove({output: 'immersiveengineering:plate_steel'})
+    event.remove({output: 'immersiveengineering:plate_gold'})
+    event.remove({output: 'immersiveengineering:plate_iron'})
 	event.remove({output: 'immersiveengineering:raw_nickel'})
 	event.remove({output: 'immersiveengineering:raw_silver'});
 	event.remove({output: 'immersiveengineering:raw_lead'});
