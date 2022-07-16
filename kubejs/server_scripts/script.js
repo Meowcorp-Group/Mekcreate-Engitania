@@ -26,119 +26,208 @@ console.info(',&&&&&@#         .&&&&/                ,@&&&,   *&&&.');
 console.info('                 /&&&&/           .%&%&&&#');
 console.info('thanks guys for listening to this kubejs loading session');
 
-onEvent('recipes', (e) => {
+onEvent('recipes', (event) => {
 	// Mekanism infusing recipes
-	e.recipes.mekanismMetallurgicInfusing(
+	event.recipes.mekanismMetallurgicInfusing(
 		'plane:diamond_reinforced_iron',
 		'2x minecraft:iron_ingot',
 		'44x mekanism:diamond',
 		440
 	);
-	e.recipes.mekanismMetallurgicInfusing(
+	event.recipes.mekanismMetallurgicInfusing(
 		'thermal:electrum_ingot',
 		'thermal:silver_ingot',
 		'mekanism:gold',
 		10
 	);
-	e.recipes.mekanismMetallurgicInfusing(
+	event.recipes.mekanismMetallurgicInfusing(
 		'thermal:bronze_dust',
 		'3x thermal:copper_dust',
 		'mekanism:tin',
 		10
 	);
 
+	// coals to sulfur
+    event.recipes.custom({
+        type: 'mekanism:reaction',
+        itemInput: {
+            ingredient: {
+                tag: 'minecraft:coals',
+            },
+        },
+        fluidInput: {
+            amount: 100,
+            tag: 'minercraft:water',
+        },
+
+        gasInput: {
+            amount: 100,
+            gas: 'mekanism:oxygen',
+        },
+
+        duration: 100,
+        itemOutput: {
+            item: 'thermal:sulfur_dust',
+        },
+
+        gasOutput: {
+            amount: '100',
+            gas: 'mekanism:hydrogen',
+        },
+    });
+
+    // coal blocks to sulfur
+    event.recipes.custom({
+        type: 'mekanism:reaction',
+        itemInput: {
+            ingredient: [
+                { tag: 'forge:storage_blocks/coal' },
+                { tag: 'forge:storage_blocks/charcoal' },
+            ],
+        },
+        fluidInput: {
+            amount: 1000,
+            tag: 'minercraft:water',
+        },
+
+        gasInput: {
+            amount: 1000,
+            gas: 'mekanism:oxygen',
+        },
+
+        duration: 900,
+        itemOutput: {
+            item: 'thermal:sulfur_dust',
+        },
+
+        gasOutput: {
+            amount: '1000',
+            gas: 'mekanism:hydrogen',
+        },
+    });
+
+    // coal dust to sulfur
+    event.recipes.custom({
+        type: 'mekanism:reaction',
+        itemInput: {
+            ingredient: [
+                { tag: 'forge:dusts/coal' },
+                { tag: 'forge:dusts/charcoal' },
+            ],
+        },
+        fluidInput: {
+            amount: 100,
+            tag: 'minercraft:water',
+        },
+
+        gasInput: {
+            amount: 100,
+            gas: 'mekanism:oxygen',
+        },
+
+        duration: 100,
+        itemOutput: {
+            item: 'thermal:sulfur_dust',
+        },
+
+        gasOutput: {
+            amount: '100',
+            gas: 'mekanism:hydrogen',
+        },
+    });
+
 	// Mekanism Sawing Recipes
 
-    e.recipes.mekanismSawing(
+    event.recipes.mekanismSawing(
 		'#minecraft:planks',
 		'6x minecraft:stick',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:wooden_slabs',
         '3x minecraft:stick',
 		Item.of('thermal:sawdust').chance(0.13)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:oak_logs',
 		'6x minecraft:oak_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:birch_logs',
 		'6x minecraft:birch_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:spruce_logs',
 		'6x minecraft:spruce_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:jungle_logs',
 		'6x minecraft:jungle_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:acacia_logs',
 		'6x minecraft:acacia_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:dark_oak_logs',
 		'6x minecraft:dark_oak_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:warped_stems',
 		'6x minecraft:_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 	
-	e.recipes.mekanismSawing(
+	event.recipes.mekanismSawing(
 		'#minecraft:crimson_stems',
 		'6x minecraft:crimson_planks',
 		Item.of('thermal:sawdust').chance(0.25)
 	);
 
 	// Create mixing recipes
-	e.recipes
+	event.recipes
 		.createMixing('4x thermal:bronze_ingot', [
 			'3x minecraft:copper_ingot',
 			'thermal:tin_ingot',
 		])
 		.heated();
 
-	e.recipes
+	event.recipes
 		.createMixing('3x thermal:invar_ingot', [
 			'2x minecraft:iron_ingot',
 			'thermal:nickel_ingot',
 		])
 		.heated();
 
-	e.recipes
+	event.recipes
 		.createMixing('2x thermal:electrum_ingot', [
 			'minecraft:gold_ingot',
 			'thermal:silver_ingot',
 		])
 		.heated();
 
-	e.recipes
+	event.recipes
 		.createMixing('2x thermal:constantan_ingot', [
 			'minecraft:copper_ingot',
 			'thermal:nickel_ingot',
 		])
 		.heated();
 
-	e.recipes
+	event.recipes
 		.createMixing('4x thermal:signalum_ingot', [
 			'3x minecraft:copper_ingot',
 			'thermal:silver_ingot',
@@ -146,7 +235,7 @@ onEvent('recipes', (e) => {
 		])
 		.heated();
 
-	e.recipes
+	event.recipes
 		.createMixing('4x thermal:lumium_ingot', [
 			'3x thermal:tin_ingot',
 			'thermal:silver_ingot',
@@ -154,7 +243,7 @@ onEvent('recipes', (e) => {
 		])
 		.heated();
 
-	e.recipes
+	event.recipes
 		.createMixing('4x thermal:enderium_ingot', [
 			'3x thermal:lead_ingot',
 			'thermal:diamond_dust',
@@ -162,14 +251,14 @@ onEvent('recipes', (e) => {
 		])
 		.heated();
 
-	e.recipes
+	event.recipes
 		.createMixing('create:rose_quartz', [
 			'minecraft:quartz',
 			Fluid.of('thermal:redstone', 800)
 		])
 		.heated();
 
-	e.recipes.createMixing('thermal:signalum_dust', [
+	event.recipes.createMixing('thermal:signalum_dust', [
 		'3x thermal:copper_dust',
 		'thermal:silver_dust',
 		Fluid.of('thermal:redstone', 400)
@@ -177,13 +266,13 @@ onEvent('recipes', (e) => {
 
 	// Create Pressing recipes
 
-	e.recipes.createPressing('thermal:iron_plate', [
+	event.recipes.createPressing('thermal:iron_plate', [
         'minecraft:iron_ingot'
 	]);
 
 	// Thermal Induction Smelter recipes
 
-	e.recipes.thermalSmelter('2x create:brass_ingot', [
+	event.recipes.thermalSmelter('2x create:brass_ingot', [
 		'minecraft:copper_ingot',
 		'create:zinc_ingot',
 	]);
