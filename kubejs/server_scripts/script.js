@@ -52,19 +52,55 @@ onEvent('recipes', (e) => {
     e.recipes.mekanismSawing(
 		'#minecraft:planks',
 		'6x minecraft:stick',
-		Item.of('#forge:dusts/wood').chance(0.25)
+		Item.of('thermal:sawdust').chance(0.25)
 	);
 
 	e.recipes.mekanismSawing(
 		'#minecraft:wooden_slabs',
         '3x minecraft:stick',
-		Item.of('#forge:dusts/wood').chance(0.13)
+		Item.of('thermal:sawdust').chance(0.13)
 	);
 
 	e.recipes.mekanismSawing(
-		'#minecraft:logs',
-		'6x #minecraft:planks',
-		Item.of('#forge:dusts/wood').chance(0.25)
+		'#minecraft:oak_logs',
+		'6x minecraft:oak_planks',
+		Item.of('thermal:sawdust').chance(0.25)
+	);
+
+	e.recipes.mekanismSawing(
+		'#minecraft:birch_logs',
+		'6x minecraft:birch_planks',
+		Item.of('thermal:sawdust').chance(0.25)
+	);
+
+	e.recipes.mekanismSawing(
+		'#minecraft:spruce_logs',
+		'6x minecraft:spruce_planks',
+		Item.of('thermal:sawdust').chance(0.25)
+	);
+
+	e.recipes.mekanismSawing(
+		'#minecraft:jungle_logs',
+		'6x minecraft:jungle_planks',
+		Item.of('thermal:sawdust').chance(0.25)
+	);
+
+	e.recipes.mekanismSawing(
+		'#minecraft:acacia_logs',
+		'6x minecraft:acacia_planks',
+		Item.of('thermal:sawdust').chance(0.25)
+	);
+
+	e.recipes.mekanismSawing(
+		'#minecraft:dark_oak_logs',
+		'6x minecraft:dark_oak_planks',
+		Item.of('thermal:sawdust').chance(0.25)
+	);
+
+	e.recipes.mekanismSawing(
+		'#minecraft:_stems',
+		'6x minecraft:_planks',
+		Item.of('thermal:sawdust').chance(0.25)
 	);
 
 	// Create mixing recipes
@@ -139,7 +175,8 @@ onEvent('recipes', (e) => {
         'minecraft:iron_ingot'
 	]);
 
-	// Thermal recipes
+	// Thermal Induction Smelter recipes
+
 	e.recipes.thermalSmelter('2x create:brass_ingot', [
 		'minecraft:copper_ingot',
 		'create:zinc_ingot',
