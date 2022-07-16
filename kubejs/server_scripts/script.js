@@ -55,6 +55,12 @@ onEvent('recipes', (e) => {
 		'#forge:dusts/wood'
 	);
 
+	e.recipes.mekanismSawing(
+		'',
+        '',
+		''
+	);
+
 	// Mekanism Reaction Chamber Recipe
 
     e.recipes.custom({
@@ -151,13 +157,21 @@ onEvent('recipes', (e) => {
 		Fluid.of('thermal:redstone', 400)
 	]);
 
+	// Create Pressing recipes
+
+	e.recipes.createPressing('thermal:iron_plate', [
+        'minecraft:iron_ingot'
+	]);
+
 	// Thermal recipes
 	e.recipes.thermalSmelter('2x create:brass_ingot', [
 		'minecraft:copper_ingot',
 		'create:zinc_ingot',
 	]);
 
-	// removed recipes here
+    
+
+// removed recipes here
 	
 	// Immersive Engineering
 
@@ -174,6 +188,15 @@ onEvent('recipes', (e) => {
 	event.remove({input: 'immersiveengineering:nugget_silver'})
 	event.remove({input: 'immersiveengineering:nugget_lead'})
 	event.remove({input: 'immersiveengineering:nugget_uranium'})
+	event.remove({input: 'immersiveengineering:plate_lead'})
+    event.remove({input: 'immersiveengineering:plate_silver'})
+    event.remove({input: 'immersiveengineering:plate_uranium}'})
+    event.remove({input: 'immersiveengineering:plate_nickel'})	
+    event.remove({input: 'immersiveengineering:plate_constantan'})
+    event.remove({input: 'immersiveengineering:plate_electrum'})
+    event.remove({input: 'immersiveengineering:plate_steel'})
+    event.remove({input: 'immersiveengineering:plate_gold'})
+    event.remove({input: 'immersiveengineering:plate_iron'})
 	event.remove({input: 'immersiveengineering:raw_nickel'})
 	event.remove({input: 'immersiveengineering:raw_silver'});
 	event.remove({input: 'immersiveengineering:raw_lead'});
@@ -281,12 +304,5 @@ onEvent('recipes', (e) => {
 	event.remove({output: 'lazierae2:coal_dust'});
 
 });
-
-// jei hidden fluids
-onEvent('jei.hide.fluids', event => {
-	event.hide('example:fluid')
-})
-
-onEvent('item.tags', (e) => {});
 
 // its mket time

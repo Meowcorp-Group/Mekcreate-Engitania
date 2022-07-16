@@ -19,6 +19,16 @@ onEvent('jei.hide.items', event => {
     event.hide('immersiveengineering:nugget_constantan')
     event.hide('immersiveengineering:nugget_uranium')
     event.hide('immersiveengineering:nugget_nickel')
+    event.hide('immersiveengineering:plate_copper')
+    event.hide('immersiveengineering:plate_lead')
+    event.hide('immersiveengineering:plate_silver')
+    event.hide('immersiveengineering:plate_uranium')
+    event.hide('immersiveengineering:plate_nickel')	
+    event.hide('immersiveengineering:plate_constantan')
+    event.hide('immersiveengineering:plate_electrum')
+    event.hide('immersiveengineering:plate_steel')
+    event.hide('immersiveengineering:plate_gold')
+    event.hide('immersiveengineering:plate_iron')
 	event.hide('immersiveengineering:ore_lead');
 	event.hide('immersiveengineering:ore_uranium');
 	event.hide('immersiveengineering:ore_silver');
@@ -49,7 +59,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('immersiveengineering:dust_sulfur');
 	event.hide('immersiveengineering:dust_saltpeter');
 
-	//Mekanism
+	// Mekanism
 	
 	event.hide('mekanism:tin_ingot');
 	event.hide('mekanism:lead_ingot');
@@ -77,7 +87,16 @@ onEvent('jei.hide.items', event => {
 	event.hide('mekanism:dust_tin');
 	event.hide('mekanism:dust_lead');
     
-	//Lazier AE2
+	// Lazier AE2
 	
 	event.hide('lazierae2:coal_dust');
+
+	// Create
+
+	event.hide('create:copper_nugget');
+
+	// JAOPCA
+
+	event.hide('jaopca:storage_block.wood')
+
 })
