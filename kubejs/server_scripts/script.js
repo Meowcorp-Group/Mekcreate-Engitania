@@ -51,45 +51,21 @@ onEvent('recipes', (e) => {
 
     e.recipes.mekanismSawing(
 		'#minecraft:planks',
-		'minecraft:stick',
-		'#forge:dusts/wood'
+		'6x minecraft:stick',
+		Item.of('#forge:dusts/wood').chance(0.25)
 	);
 
 	e.recipes.mekanismSawing(
-		'',
-        '',
-		''
+		'#minecraft:wooden_slabs',
+        '3x minecraft:stick',
+		Item.of('#forge:dusts/wood').chance(0.13)
 	);
 
-	// Mekanism Reaction Chamber Recipe
-
-    e.recipes.custom({
-		type: 'mekanism:reaction',
-		ItemInput: {
-			ingredient: {
-				tag: 'minecraft:coals',
-			},
-		},
-		fluidInput: {
-			amount: 100,
-			tag: 'minercraft:water',
-		},
-
-		gasInput: {
-			amount: 100,
-			gas: 'mekanism:oxygen',
-		},
-
-		duration: 100,
-		itemOutput: {
-			item: 'thermal:sulfur',
-        },
-		
-		gasOutput: {
-			amount: '100',
-            gas: 'mekanism:hydrogen'
-		}
-	});
+	e.recipes.mekanismSawing(
+		'#minecraft:logs',
+		'6x #minecraft:planks',
+		Item.of('#forge:dusts/wood').chance(0.25)
+	);
 
 	// Create mixing recipes
 	e.recipes
@@ -302,6 +278,14 @@ onEvent('recipes', (e) => {
 
 	event.remove({input: 'lazierae2:coal_dust'});
 	event.remove({output: 'lazierae2:coal_dust'});
+
+	// Create
+
+	//input
+    event.remove({input: 'create:copper_nugget'});
+	
+    //output
+	event.remove({output: 'create;copper_nugget'});
 
 });
 
