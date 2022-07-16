@@ -290,10 +290,6 @@ onEvent('recipes', (event) => {
         'minecraft:silver_ingot'
 	]);
 
-	event.recipes.createPressing('thermal:_plate', [
-        'minecraft:_ingot'
-	]);
-
 	// Thermal Induction Smelter recipes
 
 	event.recipes.thermalSmelter('2x create:brass_ingot', [
