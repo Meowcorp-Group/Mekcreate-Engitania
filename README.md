@@ -13,7 +13,10 @@ Mekcreate Engitania is a kitchen sink modpack that is (currently) based around t
 There is no goal. Do whatever you want!
 
 ## Development
-honestly i have no idea how to set up a development environment, but i assume you import the release zip and then somehow link it to this git repo
+Setting up a development environment:
+- Download a release zip from the [releases page](https://github.com/Meowcorp-Group/Mekcreate-Engitania/releases)
+- Import it using your favorite MultiMC-compatible launcher [(?)](https://polymc.org)
+- Follow various stackoverflow instructions to clone this repository into the existing folder
 
 ## Contributing
 Submit an [issue](https://github.com/Meowcorp-Group/Mekcreate-and-more/issues) if you discover any issues or want to suggest a feature.
